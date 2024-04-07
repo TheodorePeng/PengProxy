@@ -2,7 +2,6 @@
 
 # General Bing Website Access
 DOMAIN-SUFFIX,bing.com,Bing
-REGEX,^https?://([a-zA-Z0-9]*\.)?bing\.com,Direct
 
 # Avoid Accessing China Mainland Version of Bing
 DOMAIN-SUFFIX,cn.bing.com,Reject
@@ -26,7 +25,6 @@ REGEX,^https?://.*\.big\.(com|net),Bing
 
 # Additional Bing Content and Static Assets
 DOMAIN-SUFFIX,bing.net,Bing
-REGEX,^https?://.*\.bing\.net,Direct
 
 # Direct all traffic to non-China endpoints
 REGEX,^https?://(www\.)?bing\.com,Direct
