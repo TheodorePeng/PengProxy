@@ -1,0 +1,17 @@
+# Comprehensive Clubhouse Access Rules
+
+# Clubhouse App Main Services
+DOMAIN-SUFFIX,clubhouseapi.com,Clubhouse
+DOMAIN-SUFFIX,joinclubhouse.com,Clubhouse
+
+# API Access
+DOMAIN,api.clubhouseapi.com,Clubhouse
+DOMAIN,a.joinclubhouse.com,Clubhouse
+
+# Media Content
+DOMAIN-SUFFIX,clubhouseprod.com,Clubhouse
+DOMAIN,media.clubhouseprod.com,Clubhouse
+
+# Real-time Communication
+DOMAIN-SUFFIX,clubhouse.io,Clubhouse
+DOMAIN,realtime.clubhouse.io,Clubhouse
