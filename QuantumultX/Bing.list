@@ -1,0 +1,4 @@
+# > Bing
+USER-AGENT,*Bing*,Bing
+DOMAIN-SUFFIX,bing.com,Bing
+DOMAIN,bing.com,Bing
