@@ -21,10 +21,6 @@ DOMAIN,ssl.bing.com,Bing
 # Misc Bing Domains
 DOMAIN-SUFFIX,big.com,Bing
 DOMAIN-SUFFIX,big.net,Bing
-REGEX,^https?://.*\.big\.(com|net),Bing
 
 # Additional Bing Content and Static Assets
 DOMAIN-SUFFIX,bing.net,Bing
-
-# Direct all traffic to non-China endpoints
-REGEX,^https?://(www\.)?bing\.com,Direct
