@@ -2,27 +2,18 @@
 
 # General OpenAI Website and API Access
 DOMAIN-SUFFIX,openai.com,OpenAI
-REGEX,^https?://([a-zA-Z0-9]*\.)?openai\.com,OpenAI
 
 # API Access
 DOMAIN,api.openai.com,OpenAI
 
 # GPT-3 and Other Services
 DOMAIN,gpt3.openai.com,OpenAI
-REGEX,^https?://gpt3\..*\.openai\.com,OpenAI
 
 # Platform and Other Subdomains
 DOMAIN,platform.openai.com,OpenAI
-REGEX,^https?://([a-zA-Z0-9]*\.)?platform\.openai\.com,OpenAI
 
 # Content and Static Assets
 DOMAIN,openaiusercontent.com,OpenAI
-REGEX,^https?://.*\.openaiusercontent\.com,OpenAI
 
 # ChatGPT and Specialized Services
 DOMAIN,chat.openai.com,OpenAI
-REGEX,^https?://chat\..*\.openai\.com,OpenAI
-
-# Cover potential future subdomains or services
-REGEX,^https?://([a-zA-Z0-9]*\.)?openai\.org,OpenAI
-REGEX,^https?://.*\.openai\.org,OpenAI
