@@ -1,4 +1,32 @@
-# > Bing
-USER-AGENT,*Bing*,Bing
+# Comprehensive Bing Access Rules
+
+# General Bing Website Access
 DOMAIN-SUFFIX,bing.com,Bing
-DOMAIN,bing.com,Bing
+REGEX,^https?://([a-zA-Z0-9]*\.)?bing\.com,Direct
+
+# Avoid Accessing China Mainland Version of Bing
+DOMAIN-SUFFIX,cn.bing.com,Reject
+
+# Bing Services
+DOMAIN,www.bing.com,Bing
+DOMAIN,api.bing.com,Bing
+DOMAIN,cdn.bing.com,Bing
+DOMAIN,images.bing.com,Bing
+DOMAIN,video.bing.com,Bing
+DOMAIN,news.bing.com,Bing
+DOMAIN,search.bing.com,Bing
+
+# Secure Search
+DOMAIN,ssl.bing.com,Bing
+
+# Misc Bing Domains
+DOMAIN-SUFFIX,big.com,Bing
+DOMAIN-SUFFIX,big.net,Bing
+REGEX,^https?://.*\.big\.(com|net),Bing
+
+# Additional Bing Content and Static Assets
+DOMAIN-SUFFIX,bing.net,Bing
+REGEX,^https?://.*\.bing\.net,Direct
+
+# Direct all traffic to non-China endpoints
+REGEX,^https?://(www\.)?bing\.com,Direct
