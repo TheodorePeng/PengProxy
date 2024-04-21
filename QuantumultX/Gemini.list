@@ -1,17 +1,14 @@
-# General Google Gemini Website and API Access
-DOMAIN-SUFFIX,google.com,Gemini
+# Google Gemini API Access
+DOMAIN,api.geminiservices.google.com
 
-# API Access
-DOMAIN,api.geminiservices.google.com,Gemini
+# Google Gemini Content and Static Assets
+DOMAIN,content.gemini.google.com
 
-# Content and Static Assets
-DOMAIN,content.gemini.google.com,Gemini
+# Google Gemini User Interface and Specialized Services
+DOMAIN,ui.gemini.google.com
 
-# User Interface and Specialized Services
-DOMAIN,ui.gemini.google.com,Gemini
+# Google Gemini Account Management and Authentication Services
+DOMAIN,account.gemini.google.com
 
-# Account Management and Authentication Services
-DOMAIN,account.gemini.google.com,Gemini
-
-# Data and Analytics Services
-DOMAIN,data.gemini.google.com,Gemini
+# Google Gemini Data and Analytics Services
+DOMAIN,data.gemini.google.com
