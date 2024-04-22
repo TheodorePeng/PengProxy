@@ -15,3 +15,14 @@ DOMAIN,media.clubhouseprod.com,Clubhouse
 # Real-time Communication
 DOMAIN-SUFFIX,clubhouse.io,Clubhouse
 DOMAIN,realtime.clubhouse.io,Clubhouse
+
+
+DOMAIN-SUFFIX,clubhouseapi.com,PROXY
+
+DOMAIN-SUFFIX,clubhouseprod.s3.amazonaws.com,PROXY
+
+DOMAIN-SUFFIX,clubhouse.pubnub.com,PROXY
+
+DOMAIN-SUFFIX,maintenance.joinclubhouse.com,PROXY
+
+DOMAIN-SUFFIX,ap3.agora.io,PROXY
