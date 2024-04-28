@@ -11,3 +11,17 @@ HOST-SUFFIX,notion.com,Notion
 HOST-SUFFIX,notion.new,Notion
 HOST-SUFFIX,notion.site,Notion
 HOST-SUFFIX,notion.so,Notion
+
+
+# NAME: RemNote
+# AUTHOR: <Your Name or Organization>
+# REPO: <Your Repository URL>
+# UPDATED: 2024-04-28
+# HOST: 1
+# HOST-SUFFIX: 4
+# TOTAL: 5
+HOST,api.remnote.io,RemNote
+HOST-SUFFIX,remnote.com,RemNote
+HOST-SUFFIX,docs.remnote.com,RemNote
+HOST-SUFFIX,updates.remnote.com,RemNote
+HOST-SUFFIX,remnote.io,RemNote
