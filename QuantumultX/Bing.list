@@ -4,7 +4,8 @@
 DOMAIN-SUFFIX,bing.com,Bing
 
 # Avoid Accessing China Mainland Version of Bing
-DOMAIN-SUFFIX,cn.bing.com,Reject
+# DOMAIN-SUFFIX,cn.bing.com,Reject
+DOMAIN-SUFFIX,www.bing.com,Direct
 
 # Bing Services
 DOMAIN,www.bing.com,Bing
