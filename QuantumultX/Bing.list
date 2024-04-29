@@ -5,7 +5,7 @@ DOMAIN-SUFFIX,bing.com,Bing
 
 # Avoid Accessing China Mainland Version of Bing
 # DOMAIN-SUFFIX,cn.bing.com,Reject
-DOMAIN-SUFFIX,www.bing.com,Direct
+
 
 # Bing Services
 DOMAIN,www.bing.com,Bing
@@ -42,3 +42,9 @@ HOST-SUFFIX,bingapistatistics.com,Bing
 HOST-SUFFIX,bingsandbox.com,Bing
 HOST-SUFFIX,bingvisualsearch.com,Bing
 HOST-SUFFIX,bingworld.com,Bing
+
+
+# Others
+DOMAIN-SUFFIX,www.bing.com,Direct
+# Bing Copilot
+DOMAIN-SUFFIX,copilot.bing.com,Bing
