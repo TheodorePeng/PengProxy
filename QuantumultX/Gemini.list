@@ -12,3 +12,24 @@ DOMAIN,account.gemini.google.com
 
 # Google Gemini Data and Analytics Services
 DOMAIN,data.gemini.google.com
+
+# Google Gemini Machine Learning Models and Training
+DOMAIN,ml.gemini.google.com
+
+# Google Gemini Support and Documentation
+DOMAIN,support.gemini.google.com
+
+# Google Gemini Developer Resources
+DOMAIN,developer.gemini.google.com
+
+# Google Gemini Feedback and Community
+DOMAIN,community.gemini.google.com
+
+# Google Gemini Billing and Subscription Services
+DOMAIN,billing.gemini.google.com
+
+# Google Gemini Security and Compliance
+DOMAIN,security.gemini.google.com
+
+# Google Gemini Integration and Extensions
+DOMAIN,integrations.gemini.google.com
