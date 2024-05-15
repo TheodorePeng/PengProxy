@@ -17,3 +17,20 @@ DOMAIN,openaiusercontent.com,OpenAI
 
 # ChatGPT and Specialized Services
 DOMAIN,chat.openai.com,OpenAI
+DOMAIN,ios.chat.openai.com,OpenAI
+DOMAIN,ab.chatgpt.com,OpenAI
+
+# Authentication and User Content
+DOMAIN,auth0.openai.com,OpenAI
+DOMAIN,files.oaiusercontent.com,OpenAI
+
+# Monitoring and Analytics
+DOMAIN,033249.ingest.sentry.io,OpenAI
+DOMAIN,browser-intake-datadoghq.com,OpenAI
+
+# Avatar and Web Communication
+DOMAIN,s.gravatar.com,OpenAI
+DOMAIN,chatgpt-async-webps-prod-centralus-1.webpubsub.azure.com,OpenAI
+
+# Live Chat Support
+DOMAIN,chatgpt.livekit.cloud,OpenAI
