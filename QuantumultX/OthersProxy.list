@@ -25,3 +25,8 @@ HOST-SUFFIX,remnote.com,RemNote
 HOST-SUFFIX,docs.remnote.com,RemNote
 HOST-SUFFIX,updates.remnote.com,RemNote
 HOST-SUFFIX,remnote.io,RemNote
+
+
+# Others
+HOST-SUFFIX,www.olevod.com,Proxy
+HOST,www.olevod.com,Proxy
