@@ -30,3 +30,5 @@ HOST-SUFFIX,remnote.io,RemNote
 # Others
 HOST-SUFFIX,www.olevod.com,Proxy
 HOST,www.olevod.com,Proxy
+HOST,missav.com,PROXY
+DOMAIN-SUFFIX,missav.com,PROXY
