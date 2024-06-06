@@ -1,0 +1,54 @@
+# NAME: Cici
+# AUTHOR: 用户
+# HOST: 2
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 22
+# IP-ASN: 5
+# IP-CIDR: 4
+# IP6-CIDR: 4
+# TOTAL: 38
+HOST,api.ciciai.com,Cici
+HOST,api.ciciapp.com,Cici
+HOST-SUFFIX,ciciai.com,Cici
+HOST-SUFFIX,ciciapp.com,Cici
+HOST-SUFFIX,cicichat.com,Cici
+HOST-SUFFIX,ciciconnect.com,Cici
+HOST-SUFFIX,cicifriends.com,Cici
+HOST-SUFFIX,cicihub.com,Cici
+HOST-SUFFIX,cicilife.com,Cici
+HOST-SUFFIX,cicilink.com,Cici
+HOST-SUFFIX,ciciofficial.com,Cici
+HOST-SUFFIX,ciciworld.com,Cici
+HOST-SUFFIX,connectcici.com,Cici
+HOST-SUFFIX,discovercici.com,Cici
+HOST-SUFFIX,friendsofcici.com,Cici
+HOST-SUFFIX,getcici.com,Cici
+HOST-SUFFIX,gocici.com,Cici
+HOST-SUFFIX,hellocici.com,Cici
+HOST-SUFFIX,joincici.com,Cici
+HOST-SUFFIX,mycici.com,Cici
+HOST-SUFFIX,teamcici.com,Cici
+HOST-SUFFIX,usecici.com,Cici
+HOST-SUFFIX,welcome2cici.com,Cici
+HOST-SUFFIX,welcome2ciciai.com,Cici
+HOST-SUFFIX,welcome2ciciapp.com,Cici
+HOST-KEYWORD,cici,Cici
+HOST,wss-normal-i18n.ciciai.com,Cici
+HOST,opt-i18n.ciciai.com,Cici
+HOST,maliva-mcs.byteoversea.com,Cici
+HOST,www.ciciai.com,Cici
+HOST,mcs-sg.ciciai.com,Cici
+HOST,mssdk-i18n-sg.ciciai.com,Cici
+HOST,sf-flow-web-cdn.ciciaicdn.com,Cici
+HOST,vcs-sg.byteoversea.com,Cici
+HOST,mcs-va.ciciai.com,Cici
+HOST,sgali-mcs.byteoversea.com,Cici
+HOST,lf-rc1.yhgfb-static.com,Cici
+HOST,vmweb-va.ciciai.com,Cici
+HOST,starling-oversea.byteoversea.com,Cici
+HOST,vmweb-sg.ciciai.com,Cici
+HOST,vcs-va.byteoversea.com,Cici
+HOST,content-autofill.googleapis.com,Cici
+HOST,abtestvm-sg.bytedance.com,Cici
+HOST,sf16-tcc-tos-sg.byteoversea.com,Cici
+HOST,mon-va.byteoversea.com,Cici
