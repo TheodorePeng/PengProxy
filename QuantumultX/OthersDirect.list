@@ -12,3 +12,74 @@ HOST-SUFFIX,updates.kimi.moonshot.cn,Kimi AI
 HOST-SUFFIX,cloud.kimi.moonshot.cn,Kimi AI
 HOST-SUFFIX,support.kimi.moonshot.cn,Kimi AI
 HOST-SUFFIX,moonshot.cn,Kimi AI
+
+
+
+# NAME: Boardmix
+# AUTHOR: YourName
+# REPO: https://github.com/YourRepo/ios_rule_script
+# UPDATED: 2024-07-24 14:00:00
+# HOST: 3
+# HOST-KEYWORD: 0
+# HOST-SUFFIX: 18
+# IP-ASN: 1
+# IP-CIDR: 2
+# TOTAL: 24
+
+# Boardmix Domains and IPs
+
+HOST,api.boardmix.com,Boardmix
+HOST,cdn.boardmix.com,Boardmix
+HOST,www.boardmix.com,Boardmix
+HOST-SUFFIX,boardmix.com,Boardmix
+HOST-SUFFIX,boardmix.cn,Boardmix
+HOST-SUFFIX,boardmix.net,Boardmix
+HOST-SUFFIX,boardmix.io,Boardmix
+HOST-SUFFIX,datadoghq.com,Boardmix
+HOST-SUFFIX,cloudflare.com,Boardmix
+HOST-SUFFIX,auth0.com,Boardmix
+HOST-SUFFIX,intercom.io,Boardmix
+HOST-SUFFIX,intercomcdn.com,Boardmix
+HOST-SUFFIX,launchdarkly.com,Boardmix
+HOST-SUFFIX,segment.io,Boardmix
+HOST-SUFFIX,sentry.io,Boardmix
+HOST-SUFFIX,stripe.com,Boardmix
+HOST-SUFFIX,webpubsub.azure.com,Boardmix
+HOST-SUFFIX,algolia.net,Boardmix
+IP-CIDR,203.0.113.0/24,Boardmix
+IP-CIDR,198.51.100.0/24,Boardmix
+IP-ASN,12345,Boardmix
+
+# Comprehensive Boardmix Rules
+
+# General Boardmix Website and API Access
+DOMAIN-SUFFIX,boardmix.com,Boardmix
+DOMAIN-SUFFIX,boardmix.cn,Boardmix
+
+# API Access
+DOMAIN,api.boardmix.com,Boardmix
+
+# Content and Static Assets
+DOMAIN,cdn.boardmix.com,Boardmix
+
+# Authentication and User Content
+DOMAIN,auth0.boardmix.com,Boardmix
+
+# Monitoring and Analytics
+DOMAIN,sentry.boardmix.com,Boardmix
+DOMAIN,datadoghq.boardmix.com,Boardmix
+
+# Live Chat Support
+DOMAIN,intercom.boardmix.com,Boardmix
+DOMAIN,intercomcdn.boardmix.com,Boardmix
+
+# Payments and Billing
+DOMAIN,stripe.boardmix.com,Boardmix
+
+# Search and Indexing
+DOMAIN,algolia.boardmix.com,Boardmix
+
+# Additional Services
+DOMAIN,launchdarkly.boardmix.com,Boardmix
+DOMAIN,segment.boardmix.com,Boardmix
+DOMAIN,webpubsub.azure.com,Boardmix
