@@ -1,3 +1,17 @@
+# NAME: Others
+
+## https://forvo.com
+HOST,api.forvo.com,Forvo
+HOST,cdn.forvo.com,Forvo
+HOST,www.forvo.com,Forvo
+HOST-SUFFIX,forvo.com,Forvo
+HOST-SUFFIX,forvo.net,Forvo
+HOST-SUFFIX,forvo.io,Forvo
+IP-CIDR,203.0.113.0/24,Forvo
+IP-CIDR,198.51.100.0/24,Forvo
+IP-ASN,12345,Forvo
+
+---
 # NAME: Kimi AI
 # AUTHOR: Moonshot AI
 # REPO: <Your Repository URL>
