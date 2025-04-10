@@ -1,5 +1,21 @@
 # Comprehensive Clubhouse Access Rules
 
+# Clubhouse API 访问
+DOMAIN,clubhouseapi.com
+
+# Clubhouse 官方网站
+DOMAIN,joinclubhouse.com
+
+# Clubhouse 维护服务
+DOMAIN,maintenance.joinclubhouse.com
+
+# Clubhouse 使用的第三方服务
+DOMAIN,pubnubapi.com
+DOMAIN,agora.io
+DOMAIN,aws.amazon.com
+
+
+
 # Clubhouse App Main Services
 DOMAIN-SUFFIX,clubhouseapi.com,Clubhouse
 DOMAIN-SUFFIX,joinclubhouse.com,Clubhouse
