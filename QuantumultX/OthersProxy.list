@@ -1,7 +1,7 @@
 # 对苹果服务使用代理（海外节点）
-DOMAIN-SUFFIX,apple.com,PROXY
-DOMAIN-SUFFIX,icloud.com,PROXY
-DOMAIN-SUFFIX,itunes.apple.com,PROXY
+# DOMAIN-SUFFIX,apple.com,PROXY
+# DOMAIN-SUFFIX,icloud.com,PROXY
+# DOMAIN-SUFFIX,itunes.apple.com,PROXY
 
 
 # NAME: Notion
