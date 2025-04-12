@@ -1,0 +1,89 @@
+[Rule]
+
+# 🎧 Forvo
+DOMAIN,api.forvo.com,Forvo
+DOMAIN,cdn.forvo.com,Forvo
+DOMAIN,www.forvo.com,Forvo
+DOMAIN-SUFFIX,forvo.com,Forvo
+DOMAIN-SUFFIX,forvo.net,Forvo
+DOMAIN-SUFFIX,forvo.io,Forvo
+
+# 🤖 Kimi AI
+DOMAIN,api.kimi.moonshot.cn,Kimi AI
+DOMAIN-SUFFIX,kimi.moonshot.cn,Kimi AI
+DOMAIN-SUFFIX,docs.kimi.moonshot.cn,Kimi AI
+DOMAIN-SUFFIX,updates.kimi.moonshot.cn,Kimi AI
+DOMAIN-SUFFIX,cloud.kimi.moonshot.cn,Kimi AI
+DOMAIN-SUFFIX,support.kimi.moonshot.cn,Kimi AI
+DOMAIN-SUFFIX,moonshot.cn,Kimi AI
+
+# 📺 BiliBili HOST
+DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,BiliBili
+DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,BiliBili
+DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,BiliBili
+DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com,BiliBili
+DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com,BiliBili
+DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com,BiliBili
+DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com,BiliBili
+DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com,BiliBili
+DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com,BiliBili
+DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com,BiliBili
+DOMAIN,113-219-145-1.ksyungslb.com,BiliBili
+DOMAIN,114-236-92-129.ksyungslb.com,BiliBili
+DOMAIN,180-101-74-1.ksyungslb.com,BiliBili
+DOMAIN,219-155-150-1.ksyungslb.com,BiliBili
+DOMAIN,222-188-6-1.ksyungslb.com,BiliBili
+DOMAIN,36-104-134-1.ksyungslb.com,BiliBili
+DOMAIN,36-25-252-1.ksyungslb.com,BiliBili
+DOMAIN,p-bstarstatic.akamaized.net,BiliBili
+DOMAIN,p.bstarstatic.com,BiliBili
+DOMAIN,upos-bstar-mirrorakam.akamaized.net,BiliBili
+DOMAIN,upos-bstar1-mirrorakam.akamaized.net,BiliBili
+
+# 📺 BiliBili HOST-SUFFIX
+DOMAIN-SUFFIX,bilibili.com,BiliBili
+DOMAIN-SUFFIX,bilibili.tv,BiliBili
+DOMAIN-SUFFIX,hdslb.com,BiliBili
+DOMAIN-SUFFIX,biliapi.net,BiliBili
+DOMAIN-SUFFIX,biliapi.com,BiliBili
+DOMAIN-SUFFIX,b23.tv,BiliBili
+DOMAIN-SUFFIX,acg.tv,BiliBili
+DOMAIN-SUFFIX,acgvideo.com,BiliBili
+DOMAIN-SUFFIX,animetamashi.cn,BiliBili
+DOMAIN-SUFFIX,bilivideo.com,BiliBili
+DOMAIN-SUFFIX,bilivideo.net,BiliBili
+DOMAIN-SUFFIX,hdslb.net,BiliBili
+DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net,BiliBili
+DOMAIN-SUFFIX,bilicdn1.com,BiliBili
+DOMAIN-SUFFIX,bilicdn2.com,BiliBili
+DOMAIN-SUFFIX,bilicdn3.com,BiliBili
+DOMAIN-SUFFIX,bilicdn4.com,BiliBili
+DOMAIN-SUFFIX,bilicdn5.com,BiliBili
+DOMAIN-SUFFIX,bilibili.cc,BiliBili
+DOMAIN-SUFFIX,bilibili.cn,BiliBili
+DOMAIN-SUFFIX,bilibilipay.com,BiliBili
+DOMAIN-SUFFIX,bilibilipay.cn,BiliBili
+DOMAIN-SUFFIX,biligame.com,BiliBili
+DOMAIN-SUFFIX,biligame.cn,BiliBili
+DOMAIN-SUFFIX,biliplus.com,BiliBili
+DOMAIN-SUFFIX,biliimg.com,BiliBili
+DOMAIN-SUFFIX,biliintl.com,BiliBili
+DOMAIN-SUFFIX,biliintl.co,BiliBili
+DOMAIN-SUFFIX,bilibiligame.co,BiliBili
+DOMAIN-SUFFIX,bilibiligame.net,BiliBili
+
+# 📺 BiliBili USER-AGENT
+USER-AGENT,*bili*,BiliBili
+USER-AGENT,Bilibili*,BiliBili
+USER-AGENT,bili*,BiliBili
+USER-AGENT,bili-inter*,BiliBili
+
+# 📺 BiliBili IP-CIDR
+IP-CIDR,106.75.74.76/32,BiliBili
+IP-CIDR,111.206.25.147/32,BiliBili
+IP-CIDR,119.3.238.64/32,BiliBili
+IP-CIDR,120.92.108.182/32,BiliBili
+IP-CIDR,120.92.113.99/32,BiliBili
+IP-CIDR,120.92.153.217/32,BiliBili
+IP-CIDR,134.175.207.130/32,BiliBili
+IP-CIDR,203.107.1.0/24,BiliBili
