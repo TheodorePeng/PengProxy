@@ -1,1 +1,32 @@
+# 🍎 苹果服务（使用代理）
+DOMAIN-SUFFIX,apple.com,PROXY
+DOMAIN-SUFFIX,icloud.com,PROXY
+DOMAIN-SUFFIX,itunes.apple.com,PROXY
 
+# 🧠 Notion
+DOMAIN,http-inputs-notion.splunkcloud.com,Notion
+DOMAIN-SUFFIX,notion-static.com,Notion
+DOMAIN-SUFFIX,notion.com,Notion
+DOMAIN-SUFFIX,notion.new,Notion
+DOMAIN-SUFFIX,notion.site,Notion
+DOMAIN-SUFFIX,notion.so,Notion
+
+# 📝 RemNote
+DOMAIN,api.remnote.io,RemNote
+DOMAIN-SUFFIX,remnote.com,RemNote
+DOMAIN-SUFFIX,docs.remnote.com,RemNote
+DOMAIN-SUFFIX,updates.remnote.com,RemNote
+DOMAIN-SUFFIX,remnote.io,RemNote
+
+# 🌐 其他网站
+DOMAIN,www.olevod.com,Proxy
+DOMAIN,missav.com,PROXY
+DOMAIN-SUFFIX,missav.com,PROXY
+
+# 🎧 Apple Podcasts
+DOMAIN,podcasts.apple.com,Apple Podcasts
+DOMAIN-SUFFIX,itunes.apple.com,Apple Podcasts
+DOMAIN-SUFFIX,apple.com,Apple Podcasts
+USER-AGENT,com.apple.podcasts.*,Apple Podcasts
+USER-AGENT,com.apple.MobileStore,Apple Podcasts
+USER-AGENT,com.apple.AppStore,Apple Podcasts
