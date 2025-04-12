@@ -22,6 +22,10 @@ DOMAIN-SUFFIX,remnote.io,RemNote
 DOMAIN,www.olevod.com,Proxy
 DOMAIN,missav.com,PROXY
 DOMAIN-SUFFIX,missav.com,PROXY
+DOMAIN-SUFFIX,missav.ai,Proxy
+DOMAIN-SUFFIX,missav.com,Proxy
+DOMAIN-SUFFIX,missav.tv,Proxy
+DOMAIN-SUFFIX,missav.ws,Proxy
 
 # 🎧 Apple Podcasts
 DOMAIN,podcasts.apple.com,Apple Podcasts
