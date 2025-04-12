@@ -1,7 +1,7 @@
 # 🍎 苹果服务（使用代理）
-DOMAIN-SUFFIX,apple.com,PROXY
-DOMAIN-SUFFIX,icloud.com,PROXY
-DOMAIN-SUFFIX,itunes.apple.com,PROXY
+# DOMAIN-SUFFIX,apple.com,PROXY
+# DOMAIN-SUFFIX,icloud.com,PROXY
+# DOMAIN-SUFFIX,itunes.apple.com,PROXY
 
 # 🧠 Notion
 DOMAIN,http-inputs-notion.splunkcloud.com,Notion
