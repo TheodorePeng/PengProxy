@@ -27,6 +27,15 @@ DOMAIN-SUFFIX,missav.com,Proxy
 DOMAIN-SUFFIX,missav.tv,Proxy
 DOMAIN-SUFFIX,missav.ws,Proxy
 
+
+# 🐧 Linux DO
+DOMAIN,linux.do,Proxy
+DOMAIN,cdn.ldstatic.com,Proxy
+DOMAIN,status.linux.do,Proxy
+DOMAIN-SUFFIX,linux.do,Proxy
+DOMAIN-SUFFIX,ldstatic.com,Proxy
+
+
 # 🎧 Apple Podcasts
 DOMAIN,podcasts.apple.com,Apple Podcasts
 DOMAIN-SUFFIX,itunes.apple.com,Apple Podcasts
