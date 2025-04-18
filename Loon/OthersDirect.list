@@ -1,5 +1,14 @@
 [Rule]
 
+# Cursor应用相关域名
+DOMAIN-SUFFIX,cursor.sh,DIRECT
+DOMAIN-SUFFIX,cursor.so,DIRECT
+DOMAIN,api.cursor.sh,DIRECT
+DOMAIN,app.cursor.sh,DIRECT
+PROCESS-NAME,Cursor,DIRECT
+PROCESS-NAME,Cursor.exe,DIRECT
+
+
 # 🎧 Forvo
 DOMAIN,api.forvo.com,Forvo
 DOMAIN,cdn.forvo.com,Forvo
