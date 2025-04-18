@@ -4,6 +4,7 @@
 DOMAIN-SUFFIX,cursor.sh,DIRECT
 DOMAIN-SUFFIX,cursor.so,DIRECT
 DOMAIN,api.cursor.sh,DIRECT
+DOMAIN,api2.cursor.sh,DIRECT
 DOMAIN,app.cursor.sh,DIRECT
 PROCESS-NAME,Cursor,DIRECT
 PROCESS-NAME,Cursor.exe,DIRECT
