@@ -37,12 +37,12 @@ DOMAIN-SUFFIX,ldstatic.com,Proxy
 
 
 # 🎧 Apple Podcasts
-DOMAIN,podcasts.apple.com,Apple Podcasts
-DOMAIN-SUFFIX,itunes.apple.com,Apple Podcasts
-DOMAIN-SUFFIX,apple.com,Apple Podcasts
-USER-AGENT,com.apple.podcasts.*,Apple Podcasts
-USER-AGENT,com.apple.MobileStore,Apple Podcasts
-USER-AGENT,com.apple.AppStore,Apple Podcasts
+# DOMAIN,podcasts.apple.com,Apple Podcasts
+# DOMAIN-SUFFIX,itunes.apple.com,Apple Podcasts
+# DOMAIN-SUFFIX,apple.com,Apple Podcasts
+# USER-AGENT,com.apple.podcasts.*,Apple Podcasts
+# USER-AGENT,com.apple.MobileStore,Apple Podcasts
+# USER-AGENT,com.apple.AppStore,Apple Podcasts
 
 # 顶级机场主站域名
 
