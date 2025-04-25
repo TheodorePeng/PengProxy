@@ -33,6 +33,10 @@ DOMAIN,www.olevod.com,Proxy
 DOMAIN,m.olevod.com,Proxy
 DOMAIN,match.olevod.com,Proxy
 DOMAIN,details.olevod.com,Proxy
+.olevod.com
+.olevod.io
+.olevod.tv
+.olevodtv.com
 
 # 🐧 Linux DO
 DOMAIN,linux.do,Proxy
