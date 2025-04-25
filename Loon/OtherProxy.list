@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,updates.remnote.com,RemNote
 DOMAIN-SUFFIX,remnote.io,RemNote
 
 # 🌐 其他网站
-DOMAIN,www.olevod.com,Proxy
+# DOMAIN,www.olevod.com,Proxy
 DOMAIN,missav.com,PROXY
 DOMAIN-SUFFIX,missav.com,PROXY
 DOMAIN-SUFFIX,missav.ai,Proxy
