@@ -1566,27 +1566,27 @@
 .amazon-jp-recruiting.com
 .amazon-lantern.com
 .amazon-launchpad.com
-.amazon.ae
-.amazon.ca
-.amazon.co
-.amazon.co.jp
-.amazon.co.uk
-.amazon.com
-.amazon.com.au
-.amazon.com.br
-.amazon.com.mx
-.amazon.com.tr
-.amazon.de
-.amazon.dev
-.amazon.es
-.amazon.fr
-.amazon.in
-.amazon.it
-.amazon.jobs
-.amazon.jp
-.amazon.nl
-.amazon.red
-.amazon.sg
+# .amazon.ae
+# .amazon.ca
+# .amazon.co
+# .amazon.co.jp
+# .amazon.co.uk
+# .amazon.com
+# .amazon.com.au
+# .amazon.com.br
+# .amazon.com.mx
+# .amazon.com.tr
+# .amazon.de
+# .amazon.dev
+# .amazon.es
+# .amazon.fr
+# .amazon.in
+# .amazon.it
+# .amazon.jobs
+# .amazon.jp
+# .amazon.nl
+# .amazon.red
+# .amazon.sg
 .amazonalexavoxcon.com
 .amazonauthorinsights.com
 .amazonaws-china.com
@@ -1722,7 +1722,7 @@
 .andover.ac.uk
 .andovercollege.ac.uk
 .android-x86.org
-.android.com
+# .android.com
 .androidapksfree.com
 .androidauthority.com
 .androidfilehost.com
@@ -3880,8 +3880,8 @@
 .binancezh.pro
 .binancezh.sh
 .binancezh.top
-.bing.com
-.bing.net
+# .bing.com
+# .bing.net
 .bing123.com
 .bingads.com
 .bingagencyawards.com
@@ -11582,11 +11582,11 @@
 .gitbook.io
 .gitbooks.io
 .githack.com
-.github.blog
-.github.com
-.github.community
-.github.dev
-.github.io
+# .github.blog
+# .github.com
+# .github.community
+# .github.dev
+# .github.io
 .github1s.com
 .githubapp.com
 .githubassets.com
@@ -11596,7 +11596,7 @@
 .githubpreview.dev
 .githubstatus.com
 .githubuniverse.com
-.githubusercontent.com
+# .githubusercontent.com
 .gitlab-static.net
 .gitlab.com
 .gitlab.io
@@ -16475,8 +16475,8 @@
 .link69.com
 .linkage.ac.uk
 .linkagecollege.ac.uk
-.linkedin.at
-.linkedin.com
+# .linkedin.at
+# .linkedin.com
 .linkideo.com
 .linkinglondon.ac.uk
 .linkjunkies.com
@@ -16541,11 +16541,11 @@
 .liv-e.ac.uk
 .liv.ac.uk
 .live-video.net
-.live.ac.uk
-.live.com
-.live.com.au
-.live.eu
-.live.net
+# .live.ac.uk
+# .live.com
+# .live.com.au
+# .live.eu
+# .live.net
 .liveauction.com
 .livecamclips.com
 .livecoin.net
@@ -17754,109 +17754,109 @@
 .micron.ac.uk
 .micronanoflows.ac.uk
 .microsimulation.ac.uk
-.microsoft-falcon.io
-.microsoft-give.com
-.microsoft-int.com
-.microsoft-ppe.com
-.microsoft-sap-events.com
-.microsoft-sbs-domains.com
-.microsoft.az
-.microsoft.be
-.microsoft.by
-.microsoft.ca
-.microsoft.cat
-.microsoft.ch
-.microsoft.cl
-.microsoft.com
-.microsoft.cz
-.microsoft.de
-.microsoft.dk
-.microsoft.ee
-.microsoft.es
-.microsoft.eu
-.microsoft.fi
-.microsoft.ge
-.microsoft.hu
-.microsoft.io
-.microsoft.is
-.microsoft.it
-.microsoft.jp
-.microsoft.lt
-.microsoft.lu
-.microsoft.lv
-.microsoft.md
-.microsoft.net
-.microsoft.pl
-.microsoft.pt
-.microsoft.red
-.microsoft.ro
-.microsoft.rs
-.microsoft.ru
-.microsoft.se
-.microsoft.si
-.microsoft.tv
-.microsoft.ua
-.microsoft.uz
-.microsoft.vn
-.microsoft365.com
-.microsoftaccountguard.com
-.microsoftadc.com
-.microsoftads.com
-.microsoftadvertising.com
-.microsoftadvertisingregionalawards.com
-.microsoftaffiliates.com
-.microsoftapp.net
-.microsoftazuread-sso.com
-.microsoftazuresponsorships.com
-.microsoftcloud.com
-.microsoftcloudsummit.com
-.microsoftcloudworkshop.com
-.microsoftcommunitytraining.com
-.microsoftdiplomados.com
-.microsofteca.com
-.microsoftedge.com
-.microsoftedgeinsider.com
-.microsoftgamestack.com
-.microsofthouse.com
-.microsofthouse.net
-.microsoftinternetsafety.net
-.microsoftiotcentral.com
-.microsoftiotinsiderlabs.com
-.microsoftlatamaitour.com
-.microsoftlatamholiday.com
-.microsoftlinc.com
-.microsoftmxfilantropia.com
-.microsoftnews.cc
-.microsoftnews.com
-.microsoftnews.net
-.microsoftnews.org
-.microsoftnewsforkids.com
-.microsoftnewsforkids.net
-.microsoftnewsforkids.org
-.microsoftnewskids.com
-.microsoftnewskids.net
-.microsoftnewskids.org
-.microsoftonline-p.com
-.microsoftpartnercommunity.com
-.microsoftpartnersolutions.com
-.microsoftpersonalcontent.com
-.microsoftreactor.info
-.microsoftreactor.net
-.microsoftreactor.org
-.microsoftready.com
-.microsoftsilverlight.com
-.microsoftsilverlight.net
-.microsoftsilverlight.org
-.microsoftsiteselection.com
-.microsoftsqlserver.com
-.microsoftstart.com
-.microsoftstore.com
-.microsoftstore.com.hk
-.microsoftstream.com
-.microsoftteams.com
-.microsofttradein.com
-.microsofttranslator.com
-.microsoftuwp.com
+# .microsoft-falcon.io
+# .microsoft-give.com
+# .microsoft-int.com
+# .microsoft-ppe.com
+# .microsoft-sap-events.com
+# .microsoft-sbs-domains.com
+# .microsoft.az
+# .microsoft.be
+# .microsoft.by
+# .microsoft.ca
+# .microsoft.cat
+# .microsoft.ch
+# .microsoft.cl
+# .microsoft.com
+# .microsoft.cz
+# .microsoft.de
+# .microsoft.dk
+# .microsoft.ee
+# .microsoft.es
+# .microsoft.eu
+# .microsoft.fi
+# .microsoft.ge
+# .microsoft.hu
+# .microsoft.io
+# .microsoft.is
+# .microsoft.it
+# .microsoft.jp
+# .microsoft.lt
+# .microsoft.lu
+# .microsoft.lv
+# .microsoft.md
+# .microsoft.net
+# .microsoft.pl
+# .microsoft.pt
+# .microsoft.red
+# .microsoft.ro
+# .microsoft.rs
+# .microsoft.ru
+# .microsoft.se
+# .microsoft.si
+# .microsoft.tv
+# .microsoft.ua
+# .microsoft.uz
+# .microsoft.vn
+# .microsoft365.com
+# .microsoftaccountguard.com
+# .microsoftadc.com
+# .microsoftads.com
+# .microsoftadvertising.com
+# .microsoftadvertisingregionalawards.com
+# .microsoftaffiliates.com
+# .microsoftapp.net
+# .microsoftazuread-sso.com
+# .microsoftazuresponsorships.com
+# .microsoftcloud.com
+# .microsoftcloudsummit.com
+# .microsoftcloudworkshop.com
+# .microsoftcommunitytraining.com
+# .microsoftdiplomados.com
+# .microsofteca.com
+# .microsoftedge.com
+# .microsoftedgeinsider.com
+# .microsoftgamestack.com
+# .microsofthouse.com
+# .microsofthouse.net
+# .microsoftinternetsafety.net
+# .microsoftiotcentral.com
+# .microsoftiotinsiderlabs.com
+# .microsoftlatamaitour.com
+# .microsoftlatamholiday.com
+# .microsoftlinc.com
+# .microsoftmxfilantropia.com
+# .microsoftnews.cc
+# .microsoftnews.com
+# .microsoftnews.net
+# .microsoftnews.org
+# .microsoftnewsforkids.com
+# .microsoftnewsforkids.net
+# .microsoftnewsforkids.org
+# .microsoftnewskids.com
+# .microsoftnewskids.net
+# .microsoftnewskids.org
+# .microsoftonline-p.com
+# .microsoftpartnercommunity.com
+# .microsoftpartnersolutions.com
+# .microsoftpersonalcontent.com
+# .microsoftreactor.info
+# .microsoftreactor.net
+# .microsoftreactor.org
+# .microsoftready.com
+# .microsoftsilverlight.com
+# .microsoftsilverlight.net
+# .microsoftsilverlight.org
+# .microsoftsiteselection.com
+# .microsoftsqlserver.com
+# .microsoftstart.com
+# .microsoftstore.com
+# .microsoftstore.com.hk
+# .microsoftstream.com
+# .microsoftteams.com
+# .microsofttradein.com
+# .microsofttranslator.com
+# .microsoftuwp.com
 .microvpn.com
 .micstl.com
 .midatlanticbmwmotorcycles.com
@@ -18669,9 +18669,9 @@
 .msinnovationchallenge.com
 .msk.ilnk.info
 .msk.kitazawa.me
-.msn.com
-.msn.com.tw
-.msn.net
+# .msn.com
+# .msn.com.tw
+# .msn.net
 .msnbc.com
 .msnewskids.com
 .msnewskids.net
@@ -29951,9 +29951,9 @@
 .xbookcn.net
 .xbooks.work
 .xbooru.com
-.xbox.co
-.xbox.eu
-.xbox.org
+# .xbox.co
+# .xbox.eu
+# .xbox.org
 .xbox360.co
 .xbox360.com
 .xbox360.eu
