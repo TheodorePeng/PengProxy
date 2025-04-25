@@ -1,14 +1,15 @@
-# NAME: Global
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-04-23 02:13:32
-# DOMAIN: 89
-# DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 31354
-# IP-CIDR: 112
-# IP-CIDR6: 4
-# USER-AGENT: 46
-# TOTAL: 31641
+#  NAME: Global
+#  AUTHOR: blackmatrix7
+#  REPO: https://github.com/blackmatrix7/ios_rule_script
+# https://gh.surgeee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Domain.list
+#  UPDATED: 2025-04-23 02:13:32
+#  DOMAIN: 89
+#  DOMAIN-KEYWORD: 36
+#  DOMAIN-SUFFIX: 31354
+#  IP-CIDR: 112
+#  IP-CIDR6: 4
+#  USER-AGENT: 46
+#  TOTAL: 31641
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -21,7 +22,7 @@
 .0rz.tw
 .0x0.st
 .0xxx.ws
-.1-apple.com.tw
+# .1-apple.com.tw
 .10.tt
 .1000giri.net
 .100beatscheap.com
@@ -1942,307 +1943,307 @@
 .appl.com
 .appl4e.com
 .appla.com
-.apple-cloudkit.com
-.apple-darwin.com
-.apple-darwin.net
-.apple-darwin.org
-.apple-dns.com
-.apple-dns.net
-.apple-enews.com
-.apple-expo.com
-.apple-expo.eu
-.apple-hk.com
-.apple-imac.com
-.apple-inc.net
-.apple-livephotoskit.com
-.apple-mapkit.com
-.apple-online.com
-.apple-pay.com
-.apple-pay.rs
-.apple-pay.wang
-.apple-store.net
-.apple-store.wang
-.apple-usa.net
-.apple.ae
-.apple.at
-.apple.be
-.apple.bg
-.apple.bs
-.apple.ca
-.apple.ch
-.apple.cl
-.apple.cm
-.apple.co
-.apple.co.cr
-.apple.co.hu
-.apple.co.jp
-.apple.co.kr
-.apple.co.mz
-.apple.co.nz
-.apple.co.th
-.apple.co.uk
-.apple.com
-.apple.com.af
-.apple.com.au
-.apple.com.bo
-.apple.com.br
-.apple.com.co
-.apple.com.de
-.apple.com.do
-.apple.com.gr
-.apple.com.gy
-.apple.com.jm
-.apple.com.lk
-.apple.com.mg
-.apple.com.mx
-.apple.com.my
-.apple.com.pa
-.apple.com.pe
-.apple.com.pl
-.apple.com.pr
-.apple.com.pt
-.apple.com.py
-.apple.com.sg
-.apple.com.sv
-.apple.com.tr
-.apple.com.tw
-.apple.com.uy
-.apple.comscoreresearch.com
-.apple.cz
-.apple.de
-.apple.dk
-.apple.ee
-.apple.es
-.apple.eu
-.apple.fi
-.apple.fr
-.apple.hamburg
-.apple.hn
-.apple.hr
-.apple.hu
-.apple.ie
-.apple.in
-.apple.is
-.apple.it
-.apple.jo
-.apple.jp
-.apple.kr
-.apple.lk
-.apple.lt
-.apple.lv
-.apple.me
-.apple.my
-.apple.net
-.apple.net.gr
-.apple.news
-.apple.nl
-.apple.no
-.apple.pk
-.apple.pl
-.apple.pt
-.apple.ro
-.apple.rs
-.apple.ru
-.apple.sa
-.apple.se
-.apple.sg
-.apple.si
-.apple.sk
-.apple.so
-.apple.tt
-.apple.tw
-.apple.uk
-.apple.us
-.apple.xn--czr694b
-.apple.xn--fiqs8s
-.apple.xyz
-.appleaccount.net
-.appleafrica.com
-.appleantilles.com
-.appleappstore.net
-.appleappstore.tv
-.appleaustralia.com
-.appleaustralia.com.au
-.appleaustralia.net.au
-.applebk.net
-.applecarbon.com
-.applecard.tv
-.applecare.berlin
-.applecare.cc
-.applecare.eu
-.applecare.hamburg
-.applecare.wang
-.applecensorship.com
-.applecentar.co.rs
-.applecentar.rs
-.applecentre.com.au
-.applecentre.info
-.appleclassicipod.com
-.appleclub.com.hk
-.applecom.com
-.applecomputer-imac.com
-.applecomputer.co.in
-.applecomputer.co.nz
-.applecomputer.com
-.applecomputer.com.hk
-.applecomputer.com.tw
-.applecomputer.hu
-.applecomputer.kr
-.applecomputerimac.com
-.applecomputerinc.info
-.applecomputers.co.nz
-.applecoronavirus.com
-.appledaily.com
-.appledaily.com.hk
-.appledaily.com.tw
-.appledaily.hk
-.appledarwin.com
-.appledarwin.net
-.appleenews.com
-.appleexpo.eu
-.appleexpo.info
-.applefilmaker.com
-.applefilmmaker.com
-.applefinalcutproworld.com
-.applefinalcutproworld.net
-.applefinalcutproworld.org
-.applefruity.com
-.applehealth.com.hk
-.applehongkong.com
-.applehongkong.com.hk
-.appleid-applemx.com
-.appleid-applemx.us
-.appleid-iclou.com
-.appleid-uk.us
-.appleid.berlin
-.appleid.com
-.appleid.hamburg
-.appleid.hk
-.appleimac.com
-.appleinclegal.com
-.appleinsider.com
-.appleiphone.hu
-.appleiphone.net
-.appleiphonecell.com
-.appleipodsettlement.com
-.appleiservices.com
-.applelink.com
-.applemagickeyboard.com
-.applemalaysia.com.my
-.applemasters.info
-.applemusic.berlin
-.applemusic.co
-.applemusic.com
-.applemusic.com.au
-.applemusic.hamburg
-.applemusic.wang
-.applemusicconnect.com
-.applemusicfestival.com
-.applemx-icloud.com
-.applenews.berlin
-.applenews.hamburg
-.applenews.tv
-.applenewsformat.com
-.appleone.audio
-.appleone.blog
-.appleone.chat
-.appleone.cloud
-.appleone.club
-.appleone.community
-.appleone.film
-.appleone.guide
-.appleone.host
-.appleone.space
-.appleone.tech
-.appleone.website
-.appleonline.com
-.appleonline.net
-.appleoriginalproductions.com
-.appleos.tv
-.applepay.berlin
-.applepay.co.rs
-.applepay.com.tw
-.applepay.hamburg
-.applepay.hk
-.applepay.info
-.applepay.jp
-.applepay.rs
-.applepay.tv
-.applepaycash.net
-.applepaycash.tv
-.applepaymerchantsupplies.info
-.applepaysupplies.berlin
-.applepaysupplies.com
-.applepaysupplies.info
-.applepaysupplies.net
-.applepaysupplies.tv
-.applepencil.net
-.applepodcasts.com
-.applepremiumreseller.com.au
-.applepremiumresellers.com.au
-.applereach.com
-.applereach.net
-.apples-msk.ru
-.applescreensavers.com
-.applescript.info
-.appleshare.info
-.appleshop.co.uk
-.applestor.com
-.applestore.bg
-.applestore.cc
-.applestore.ch
-.applestore.cm
-.applestore.co.hu
-.applestore.co.jp
-.applestore.co.ug
-.applestore.co.uk
-.applestore.com
-.applestore.com.au
-.applestore.com.bn
-.applestore.com.ee
-.applestore.com.eg
-.applestore.com.gr
-.applestore.com.hk
-.applestore.com.hr
-.applestore.com.jo
-.applestore.com.my
-.applestore.com.ph
-.applestore.com.pl
-.applestore.com.pt
-.applestore.com.ro
-.applestore.com.sn
-.applestore.com.tw
-.applestore.de
-.applestore.hk
-.applestore.kr
-.applestore.me
-.applestore.net
-.applestore.net.gr
-.applestore.ph
-.applestore.qa
-.applestore.sg
-.applestore.wang
-.applestoreonline.com
-.applestorepro.eu
-.applesurveys.com
-.appleswift.com
-.appletaiwan.com
-.appletips.net
-.appletv.com
-.appletv.fr
-.appletv.wang
-.applewallet.com
-.applewallet.tv
-.applewatch.hk
-.applewatch.tv
-.applewatch.tw
-.applewatch.wang
-.applewatchedition.com
-.applewatchseries3.net
-.applewatchsport.com
-.appleweb.net
-.applexpo.net
-.applezh.com
+# .apple-cloudkit.com
+# .apple-darwin.com
+# .apple-darwin.net
+# .apple-darwin.org
+# .apple-dns.com
+# .apple-dns.net
+# .apple-enews.com
+# .apple-expo.com
+# .apple-expo.eu
+# .apple-hk.com
+# .apple-imac.com
+# .apple-inc.net
+# .apple-livephotoskit.com
+# .apple-mapkit.com
+# .apple-online.com
+# .apple-pay.com
+# .apple-pay.rs
+# .apple-pay.wang
+# .apple-store.net
+# .apple-store.wang
+# .apple-usa.net
+# .apple.ae
+# .apple.at
+# .apple.be
+# .apple.bg
+# .apple.bs
+# .apple.ca
+# .apple.ch
+# .apple.cl
+# .apple.cm
+# .apple.co
+# .apple.co.cr
+# .apple.co.hu
+# .apple.co.jp
+# .apple.co.kr
+# .apple.co.mz
+# .apple.co.nz
+# .apple.co.th
+# .apple.co.uk
+# .apple.com
+# .apple.com.af
+# .apple.com.au
+# .apple.com.bo
+# .apple.com.br
+# .apple.com.co
+# .apple.com.de
+# .apple.com.do
+# .apple.com.gr
+# .apple.com.gy
+# .apple.com.jm
+# .apple.com.lk
+# .apple.com.mg
+# .apple.com.mx
+# .apple.com.my
+# .apple.com.pa
+# .apple.com.pe
+# .apple.com.pl
+# .apple.com.pr
+# .apple.com.pt
+# .apple.com.py
+# .apple.com.sg
+# .apple.com.sv
+# .apple.com.tr
+# .apple.com.tw
+# .apple.com.uy
+# .apple.comscoreresearch.com
+# .apple.cz
+# .apple.de
+# .apple.dk
+# .apple.ee
+# .apple.es
+# .apple.eu
+# .apple.fi
+# .apple.fr
+# .apple.hamburg
+# .apple.hn
+# .apple.hr
+# .apple.hu
+# .apple.ie
+# .apple.in
+# .apple.is
+# .apple.it
+# .apple.jo
+# .apple.jp
+# .apple.kr
+# .apple.lk
+# .apple.lt
+# .apple.lv
+# .apple.me
+# .apple.my
+# .apple.net
+# .apple.net.gr
+# .apple.news
+# .apple.nl
+# .apple.no
+# .apple.pk
+# .apple.pl
+# .apple.pt
+# .apple.ro
+# .apple.rs
+# .apple.ru
+# .apple.sa
+# .apple.se
+# .apple.sg
+# .apple.si
+# .apple.sk
+# .apple.so
+# .apple.tt
+# .apple.tw
+# .apple.uk
+# .apple.us
+# .apple.xn--czr694b
+# .apple.xn--fiqs8s
+# .apple.xyz
+# .appleaccount.net
+# .appleafrica.com
+# .appleantilles.com
+# .appleappstore.net
+# .appleappstore.tv
+# .appleaustralia.com
+# .appleaustralia.com.au
+# .appleaustralia.net.au
+# .applebk.net
+# .applecarbon.com
+# .applecard.tv
+# .applecare.berlin
+# .applecare.cc
+# .applecare.eu
+# .applecare.hamburg
+# .applecare.wang
+# .applecensorship.com
+# .applecentar.co.rs
+# .applecentar.rs
+# .applecentre.com.au
+# .applecentre.info
+# .appleclassicipod.com
+# .appleclub.com.hk
+# .applecom.com
+# .applecomputer-imac.com
+# .applecomputer.co.in
+# .applecomputer.co.nz
+# .applecomputer.com
+# .applecomputer.com.hk
+# .applecomputer.com.tw
+# .applecomputer.hu
+# .applecomputer.kr
+# .applecomputerimac.com
+# .applecomputerinc.info
+# .applecomputers.co.nz
+# .applecoronavirus.com
+# .appledaily.com
+# .appledaily.com.hk
+# .appledaily.com.tw
+# .appledaily.hk
+# .appledarwin.com
+# .appledarwin.net
+# .appleenews.com
+# .appleexpo.eu
+# .appleexpo.info
+# .applefilmaker.com
+# .applefilmmaker.com
+# .applefinalcutproworld.com
+# .applefinalcutproworld.net
+# .applefinalcutproworld.org
+# .applefruity.com
+# .applehealth.com.hk
+# .applehongkong.com
+# .applehongkong.com.hk
+# .appleid-applemx.com
+# .appleid-applemx.us
+# .appleid-iclou.com
+# .appleid-uk.us
+# .appleid.berlin
+# .appleid.com
+# .appleid.hamburg
+# .appleid.hk
+# .appleimac.com
+# .appleinclegal.com
+# .appleinsider.com
+# .appleiphone.hu
+# .appleiphone.net
+# .appleiphonecell.com
+# .appleipodsettlement.com
+# .appleiservices.com
+# .applelink.com
+# .applemagickeyboard.com
+# .applemalaysia.com.my
+# .applemasters.info
+# .applemusic.berlin
+# .applemusic.co
+# .applemusic.com
+# .applemusic.com.au
+# .applemusic.hamburg
+# .applemusic.wang
+# .applemusicconnect.com
+# .applemusicfestival.com
+# .applemx-icloud.com
+# .applenews.berlin
+# .applenews.hamburg
+# .applenews.tv
+# .applenewsformat.com
+# .appleone.audio
+# .appleone.blog
+# .appleone.chat
+# .appleone.cloud
+# .appleone.club
+# .appleone.community
+# .appleone.film
+# .appleone.guide
+# .appleone.host
+# .appleone.space
+# .appleone.tech
+# .appleone.website
+# .appleonline.com
+# .appleonline.net
+# .appleoriginalproductions.com
+# .appleos.tv
+# .applepay.berlin
+# .applepay.co.rs
+# .applepay.com.tw
+# .applepay.hamburg
+# .applepay.hk
+# .applepay.info
+# .applepay.jp
+# .applepay.rs
+# .applepay.tv
+# .applepaycash.net
+# .applepaycash.tv
+# .applepaymerchantsupplies.info
+# .applepaysupplies.berlin
+# .applepaysupplies.com
+# .applepaysupplies.info
+# .applepaysupplies.net
+# .applepaysupplies.tv
+# .applepencil.net
+# .applepodcasts.com
+# .applepremiumreseller.com.au
+# .applepremiumresellers.com.au
+# .applereach.com
+# .applereach.net
+# .apples-msk.ru
+# .applescreensavers.com
+# .applescript.info
+# .appleshare.info
+# .appleshop.co.uk
+# .applestor.com
+# .applestore.bg
+# .applestore.cc
+# .applestore.ch
+# .applestore.cm
+# .applestore.co.hu
+# .applestore.co.jp
+# .applestore.co.ug
+# .applestore.co.uk
+# .applestore.com
+# .applestore.com.au
+# .applestore.com.bn
+# .applestore.com.ee
+# .applestore.com.eg
+# .applestore.com.gr
+# .applestore.com.hk
+# .applestore.com.hr
+# .applestore.com.jo
+# .applestore.com.my
+# .applestore.com.ph
+# .applestore.com.pl
+# .applestore.com.pt
+# .applestore.com.ro
+# .applestore.com.sn
+# .applestore.com.tw
+# .applestore.de
+# .applestore.hk
+# .applestore.kr
+# .applestore.me
+# .applestore.net
+# .applestore.net.gr
+# .applestore.ph
+# .applestore.qa
+# .applestore.sg
+# .applestore.wang
+# .applestoreonline.com
+# .applestorepro.eu
+# .applesurveys.com
+# .appleswift.com
+# .appletaiwan.com
+# .appletips.net
+# .appletv.com
+# .appletv.fr
+# .appletv.wang
+# .applewallet.com
+# .applewallet.tv
+# .applewatch.hk
+# .applewatch.tv
+# .applewatch.tw
+# .applewatch.wang
+# .applewatchedition.com
+# .applewatchseries3.net
+# .applewatchsport.com
+# .appleweb.net
+# .applexpo.net
+# .applezh.com
 .applf.com
 .applfe.com
 .applicationinsights.io
@@ -7805,7 +7806,7 @@
 .discreet.com
 .discuss.com.hk
 .discuss4u.com
-.discussionsapple.com
+# .discussionsapple.com
 .dish.com
 .dishworld.com
 .disinhe.ac.uk
@@ -10292,7 +10293,7 @@
 .financialadvisoriq.com
 .financialsoccer.ca
 .finchvpn.com
-.find-apple.com
+# .find-apple.com
 .find-cdt.ac.uk
 .findacard.com
 .findasians.live
@@ -13872,44 +13873,44 @@
 .icij.org
 .icit.ac.uk
 .icl-fi.org
-.icloud-content.com
-.icloud-isupport.com
-.icloud-sandbox.com
-.icloud.ch
-.icloud.com
-.icloud.de
-.icloud.ee
-.icloud.fi
-.icloud.fr
-.icloud.hu
-.icloud.ie
-.icloud.is
-.icloud.jp
-.icloud.lv
-.icloud.om
-.icloud.org
-.icloud.pt
-.icloud.ro
-.icloud.se
-.icloud.si
-.icloud.sk
-.icloud.vn
-.icloudads.net
-.icloudbox.net
-.icloudbrowser.net
-.icloude.com
-.icloudhome.com
-.icloudmail.net
-.icloudmusic.net
-.icloudnet.net
-.icloudo.com
-.icloudo.de
-.icloudo.net
-.icloudos.de
-.icloudos.net
-.icloudpay.net
-.icloudsecure.net
-.icloudsetup.com
+# .icloud-content.com
+# .icloud-isupport.com
+# .icloud-sandbox.com
+# .icloud.ch
+# .icloud.com
+# .icloud.de
+# .icloud.ee
+# .icloud.fi
+# .icloud.fr
+# .icloud.hu
+# .icloud.ie
+# .icloud.is
+# .icloud.jp
+# .icloud.lv
+# .icloud.om
+# .icloud.org
+# .icloud.pt
+# .icloud.ro
+# .icloud.se
+# .icloud.si
+# .icloud.sk
+# .icloud.vn
+# .icloudads.net
+# .icloudbox.net
+# .icloudbrowser.net
+# .icloude.com
+# .icloudhome.com
+# .icloudmail.net
+# .icloudmusic.net
+# .icloudnet.net
+# .icloudo.com
+# .icloudo.de
+# .icloudo.net
+# .icloudos.de
+# .icloudos.net
+# .icloudpay.net
+# .icloudsecure.net
+# .icloudsetup.com
 .icls.ac.uk
 .icma.ac.uk
 .icmacentre.ac.uk
@@ -13953,7 +13954,7 @@
 .idouga.com
 .idras.ac.uk
 .idreamx.com
-.ids-apple.com
+# .ids-apple.com
 .ids.ac.uk
 .idsam.com
 .idservice.inc
@@ -14212,8 +14213,8 @@
 .im-apps.net
 .im.tv
 .im88.tw
-.imac-apple.com
-.imac-applecomputer.com
+# .imac-apple.com
+# .imac-applecomputer.com
 .imac.co
 .imac.co.nz
 .imac.com
@@ -14221,8 +14222,8 @@
 .imac.gr
 .imac.one
 .imac.rs
-.imacapple.com
-.imacapplecomputer.com
+# .imacapple.com
+# .imacapplecomputer.com
 .imacsources.com
 .image-guided-therapies.ac.uk
 .imageab.com
@@ -14736,7 +14737,7 @@
 .iole.tv
 .ion.ac.uk
 .iooog.sbs
-.ios-icloud.com
+# .ios-icloud.com
 .ios.ac.uk
 .iosinthecar.com
 .iotinactionevents.com
@@ -18616,7 +18617,7 @@
 .mpweekly.com
 .mql5.com
 .mqxd.org
-.mr-apple.com.tw
+# .mr-apple.com.tw
 .mr-tireman.jp
 .mray.club
 .mrbasic.com
@@ -18807,7 +18808,7 @@
 .myamateurtv.com
 .myanmar-porn.com
 .myanniu.com
-.myappleid.com
+# .myappleid.com
 .myatos.net
 .myaudiocast.com
 .myautocad.com
@@ -18915,7 +18916,7 @@
 .myhtebooks.com
 .myhtlmebook.com
 .myhulu.com
-.myicloud.net
+# .myicloud.net
 .myiphide.com
 .myiphider.com
 .myipod.net
@@ -19574,7 +19575,7 @@
 .next.com
 .next.hk
 .next11.co.jp
-.nextapple.com
+# .nextapple.com
 .nextdigital.com.hk
 .nextdigital.com.tw
 .nextechafrica.net
@@ -20627,7 +20628,7 @@
 .onkakao.net
 .online-deals.net
 .online-instagram.com
-.onlineapplestore.com
+# .onlineapplestore.com
 .onlinecha.com
 .onlinefucktube.com
 .onlinegeeksquad.com
@@ -20880,7 +20881,7 @@
 .ovc.ac.uk
 .over-blog.com
 .over18arcade.com
-.overapple.com
+# .overapple.com
 .overcast.fm
 .overdaily.org
 .overleaf.com
@@ -22236,7 +22237,7 @@
 .pow.ac.uk
 .power.com
 .poweranimator.com
-.powerapple.com
+# .powerapple.com
 .powerappscdn.net
 .powerautomate.com
 .powerbeats2wireless.com
@@ -23118,7 +23119,7 @@
 .ref.ac.uk
 .referer.us
 .reflectivecode.com
-.reform-apple.com
+# .reform-apple.com
 .refrain.ac.uk
 .regard.ac.uk
 .regener8.ac.uk
@@ -24060,7 +24061,7 @@
 .serverlesslibrary.net
 .serveuser.com
 .serveusers.com
-.services-apple.net
+# .services-apple.net
 .services-exchange.com
 .serviceshp.com
 .servicetalk.io
@@ -29842,7 +29843,7 @@
 .wunvb.com
 .wuso.me
 .wuw.red
-.wuxiapple.com
+# .wuxiapple.com
 .wuyanblog.com
 .wuyefuli.org
 .wvlln.ac.uk
@@ -29850,7 +29851,7 @@
 .wvn.ac.uk
 .wvr.ac.uk
 .ww9094.com
-.wwapple.net
+# .wwapple.net
 .wwe.com
 .wwe9.com
 .wwitv.com
@@ -29860,15 +29861,15 @@
 .www-facebook.com
 .www-paypal.info
 .www-paypal.us
-.www-sms-apple.com
+# .www-sms-apple.com
 .www.destinationurl.com
 .www.pxcc.com
 .www.sb
 .www1.biz
 .www8-hp.com
-.wwwapple.com
-.wwwapple.net
-.wwwapplemusic.com
+# .wwwapple.com
+# .wwwapple.net
+# .wwwapplemusic.com
 .wwwdecide.com
 .wwwebay.com
 .wwwebay.net
@@ -29876,11 +29877,11 @@
 .wwwfacebook.com
 .wwwhost.biz
 .wwwhuluplus.com
-.wwwicloud.com
+# .wwwicloud.com
 .wwwinstagram.com
 .wwwipodlounge.com
 .wwwitunes.com
-.wwwlapple.com
+# .wwwlapple.com
 .wwwmacbookair.com
 .wwwmfacebook.com
 .wwwpaypass.com
@@ -31369,9 +31370,9 @@ angle.com.tw
 anime-rule34-world.b-cdn.net
 api-p.videomarket.jp
 api.waqi.info
-apple.com.akadns.net
-appleworldwidedeveloper.hb-api.omtrdc.net
-appleworldwidedeveloper.sc.omtrdc.net
+# apple.com.akadns.net
+# appleworldwidedeveloper.hb-api.omtrdc.net
+# appleworldwidedeveloper.sc.omtrdc.net
 aqi.aqicn.org
 asahishimbun.sc.omtrdc.net
 assets1.xboxlive.com
@@ -31392,7 +31393,7 @@ cisco.evergage.com
 cloud.oracle.com
 clubhouse.pubnubapi.com
 community.oneplus.com
-courier-push-apple.com.akadns.net
+# courier-push-apple.com.akadns.net
 crl.versign.net
 databank.worldbank.org
 default.exp-tas.com
@@ -31409,7 +31410,7 @@ gog.qtlglb.com
 hpstore.corpmerchandise.com
 i.jeded.com
 imperial.insendi.com
-ingest.apple-studies.com
+# ingest.apple-studies.com
 lgelectronics.122.2o7.net
 linkedin.sc.omtrdc.net
 live-patreon-marketing.pantheonsite.io
@@ -31434,7 +31435,7 @@ practivate.adobe.ipp
 practivate.adobe.newoa
 practivate.adobe.ntp
 public-us-pingsx.api.clonoth.com
-push-apple.com.akadns.net
+# push-apple.com.akadns.net
 qualcomm.sc.omtrdc.net
 servd-anthropic-website.b-cdn.net
 tesla-cdn.thron.com
@@ -31450,7 +31451,7 @@ vsmarketplacebadge.apphb.com
 wetv.qq.com
 widgets.stripst.com
 wrds-www.wharton.upenn.edu
-www-cdn.icloud.com.akadns.net
+# www-cdn.icloud.com.akadns.net
 ztedevices.com
 
 
