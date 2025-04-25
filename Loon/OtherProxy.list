@@ -27,6 +27,12 @@ DOMAIN-SUFFIX,missav.com,Proxy
 DOMAIN-SUFFIX,missav.tv,Proxy
 DOMAIN-SUFFIX,missav.ws,Proxy
 
+# 欧乐
+DOMAIN-SUFFIX,olevod.com,Proxy
+DOMAIN,www.olevod.com,Proxy
+DOMAIN,m.olevod.com,Proxy
+DOMAIN,match.olevod.com,Proxy
+DOMAIN,details.olevod.com,Proxy
 
 # 🐧 Linux DO
 DOMAIN,linux.do,Proxy
