@@ -32,7 +32,7 @@ DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
+# DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,instagram
 # DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,paypal
@@ -45,7 +45,7 @@ DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,youtube
+# DOMAIN-KEYWORD,youtube
 USER-AGENT,AbemaTV*
 USER-AGENT,All4*
 USER-AGENT,Anime*
@@ -77,10 +77,10 @@ USER-AGENT,TwDramas
 USER-AGENT,Viu*
 USER-AGENT,ViuTV*
 USER-AGENT,WeMusic*
-USER-AGENT,YouTube*
-USER-AGENT,YouTubeMusic*
-USER-AGENT,com.google.ios.youtube*
-USER-AGENT,com.google.ios.youtubemusic*
+# USER-AGENT,YouTube*
+# USER-AGENT,YouTubeMusic*
+# USER-AGENT,com.google.ios.youtube*
+# USER-AGENT,com.google.ios.youtubemusic*
 USER-AGENT,com.kktv.ios.kktv*
 USER-AGENT,encoreTVB*
 USER-AGENT,mytv*
