@@ -9,6 +9,24 @@ DOMAIN,app.cursor.sh,DIRECT
 PROCESS-NAME,Cursor,DIRECT
 PROCESS-NAME,Cursor.exe,DIRECT
 
+# Toby
+DOMAIN-SUFFIX,gettoby.com,Proxy
+
+DOMAIN,api.gettoby.com,Proxy
+DOMAIN,api2.gettoby.com,Proxy
+DOMAIN,api-staging.gettoby.com,Proxy
+DOMAIN,api-staging2.gettoby.com,Proxy
+DOMAIN,app.gettoby.com,Proxy
+DOMAIN,web.gettoby.com,Proxy
+DOMAIN,logs.gettoby.com,Proxy
+DOMAIN,feedback.gettoby.com,Proxy
+DOMAIN,help.gettoby.com,Proxy
+DOMAIN,email.gettoby.com,Proxy
+DOMAIN,exp.gettoby.com,Proxy
+DOMAIN,exp-api.gettoby.com,Proxy
+DOMAIN,nightly-app.gettoby.com,Proxy
+DOMAIN,staging-app.gettoby.com,Proxy
+
 
 # 🎧 Forvo
 DOMAIN,api.forvo.com,Forvo
