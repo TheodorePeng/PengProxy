@@ -60,6 +60,5 @@ DOMAIN-SUFFIX,ldstatic.com,Proxy
 
 # 顶级机场主站域名
 
-DOMAIN-SUFFIX,xn--mes358a9urctx.com,Proxy
 DOMAIN-SUFFIX,djjc.cfd,Proxy
-DOMAIN-SUFFIX,djjc.cfd/api/v1/client/subscribe?token=1bfe20815bf9132d7e0e9271fa3f6d04&flag=mixde,Proxy
+DOMAIN-SUFFIX,jsjc.cfd,Proxy
