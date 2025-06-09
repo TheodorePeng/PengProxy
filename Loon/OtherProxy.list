@@ -32,6 +32,9 @@ DOMAIN-SUFFIX,missav.ws,Proxy
 .missav.ws
 DOMAIN-SUFFIX,missav01.cc,Proxy
 
+DOMAIN,rou.video,PROXY
+DOMAIN-SUFFIX,rou.video,PROXY
+
 # 欧乐
 DOMAIN-SUFFIX,olevod.com,Proxy
 DOMAIN,www.olevod.com,Proxy
