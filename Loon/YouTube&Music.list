@@ -17,6 +17,16 @@ DOMAIN-SUFFIX,youtube.com,YouTube
 DOMAIN-SUFFIX,youtu.be,YouTube
 DOMAIN-SUFFIX,youtube-nocookie.com,YouTube
 
+
+[notebooklm]
+# 对 notebooklm.google 的所有子域名和路径走美国节点
+DOMAIN-SUFFIX, notebooklm.google, US-Proxy
+
+# 示例：如果未来有相关域名（如 *.google.com/path/notebooklm等）
+DOMAIN-KEYWORD, notebooklm, US-Proxy
+
+
+
 # YouTube 各国家/地区域名
 DOMAIN-SUFFIX,youtube.ae,YouTube
 DOMAIN-SUFFIX,youtube.al,YouTube
