@@ -25,6 +25,8 @@ DOMAIN-SUFFIX,missav.ai,Proxy
 DOMAIN-SUFFIX,missav.com,Proxy
 DOMAIN-SUFFIX,missav.tv,Proxy
 DOMAIN-SUFFIX,missav.ws,Proxy
+DOMAIN-SUFFIX,taiav.com,PROXY
+.taiav.com
 .missav.ai
 .missav.com
 .missav.uno
