@@ -17,7 +17,15 @@ DOMAIN-SUFFIX,youtube.com,YouTube
 DOMAIN-SUFFIX,youtu.be,YouTube
 DOMAIN-SUFFIX,youtube-nocookie.com,YouTube
 
+# ============================
+# YouTube会员
+DOMAIN-SUFFIX, youtube.com, PROXY
+DOMAIN-SUFFIX, googlevideo.com, PROXY
+DOMAIN-SUFFIX, google.com, PROXY
+DOMAIN-SUFFIX, gstatic.com, PROXY
 
+
+# ============================
 [notebooklm]
 # 对 notebooklm.google 的所有子域名和路径走美国节点
 DOMAIN-SUFFIX, notebooklm.google, US-Proxy
