@@ -52,6 +52,10 @@ DOMAIN,details.olevod.com,Proxy
 .olevod.tv
 .olevodtv.com
 
+# 美剧天堂
+URL-REGEX,^https?:\/\/www\.meijutt\.org\/mhkh\/fushedierji\/1-7\.html$,Proxy
+DOMAIN-SUFFIX,meijutt.org,Proxy
+
 
 # 🐧 Linux DO
 DOMAIN,linux.do,Proxy
