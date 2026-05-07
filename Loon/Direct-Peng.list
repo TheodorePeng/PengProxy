@@ -1,117 +1,157 @@
 [Rule]
 
+
+
+# 🎮 SEAGM
+DOMAIN-SUFFIX,seagm.com,SEAGM
+DOMAIN,www.seagm.com,SEAGM
+DOMAIN,member.seagm.com,SEAGM
+DOMAIN,pay.seagm.com,SEAGM
+DOMAIN,news.seagm.com,SEAGM
+DOMAIN,help.seagm.com,SEAGM
+DOMAIN,support.seagm.com,SEAGM
+DOMAIN,api.seagm.com,SEAGM
+DOMAIN,m.seagm.com,SEAGM
+DOMAIN,static.seagm.com,SEAGM
+DOMAIN,cdn.seagm.com,SEAGM
+DOMAIN,img.seagm.com,SEAGM
+DOMAIN,images.seagm.com,SEAGM
+DOMAIN,assets.seagm.com,SEAGM
+DOMAIN,media.seagm.com,SEAGM
+
+# 🎮 SEAGM Cloudflare 相关
+DOMAIN,challenges.cloudflare.com,SEAGM
+DOMAIN,static.cloudflareinsights.com,SEAGM
+DOMAIN-SUFFIX,cloudflareinsights.com,SEAGM
+
+# 🎮 SEAGM Google 登录相关
+DOMAIN,accounts.google.com,SEAGM
+DOMAIN,oauth2.googleapis.com,SEAGM
+DOMAIN,www.googleapis.com,SEAGM
+DOMAIN,apis.google.com,SEAGM
+DOMAIN,ssl.gstatic.com,SEAGM
+DOMAIN,www.gstatic.com,SEAGM
+DOMAIN-SUFFIX,gstatic.com,SEAGM
+DOMAIN-SUFFIX,googleapis.com,SEAGM
+
+DOMAIN-SUFFIX,seagm.com,SEAGM
+
+
+
+
+
 # Cursor应用相关域名
-DOMAIN-SUFFIX,cursor.sh,DIRECT
-DOMAIN-SUFFIX,cursor.so,DIRECT
-DOMAIN,api.cursor.sh,DIRECT
-DOMAIN,api2.cursor.sh,DIRECT
-DOMAIN,app.cursor.sh,DIRECT
-PROCESS-NAME,Cursor,DIRECT
-PROCESS-NAME,Cursor.exe,DIRECT
+# DOMAIN-SUFFIX,cursor.sh,DIRECT
+# DOMAIN-SUFFIX,cursor.so,DIRECT
+# DOMAIN,api.cursor.sh,DIRECT
+# DOMAIN,api2.cursor.sh,DIRECT
+# DOMAIN,app.cursor.sh,DIRECT
+# PROCESS-NAME,Cursor,DIRECT
+# PROCESS-NAME,Cursor.exe,DIRECT
 
 # Toby
-DOMAIN-SUFFIX,gettoby.com,Proxy
+# DOMAIN-SUFFIX,gettoby.com,Proxy
 
-DOMAIN,api.gettoby.com,Proxy
-DOMAIN,api2.gettoby.com,Proxy
-DOMAIN,api-staging.gettoby.com,Proxy
-DOMAIN,api-staging2.gettoby.com,Proxy
-DOMAIN,app.gettoby.com,Proxy
-DOMAIN,web.gettoby.com,Proxy
-DOMAIN,logs.gettoby.com,Proxy
-DOMAIN,feedback.gettoby.com,Proxy
-DOMAIN,help.gettoby.com,Proxy
-DOMAIN,email.gettoby.com,Proxy
-DOMAIN,exp.gettoby.com,Proxy
-DOMAIN,exp-api.gettoby.com,Proxy
-DOMAIN,nightly-app.gettoby.com,Proxy
-DOMAIN,staging-app.gettoby.com,Proxy
+# DOMAIN,api.gettoby.com,Proxy
+# DOMAIN,api2.gettoby.com,Proxy
+# DOMAIN,api-staging.gettoby.com,Proxy
+# DOMAIN,api-staging2.gettoby.com,Proxy
+# DOMAIN,app.gettoby.com,Proxy
+# DOMAIN,web.gettoby.com,Proxy
+# DOMAIN,logs.gettoby.com,Proxy
+# DOMAIN,feedback.gettoby.com,Proxy
+# DOMAIN,help.gettoby.com,Proxy
+# DOMAIN,email.gettoby.com,Proxy
+# DOMAIN,exp.gettoby.com,Proxy
+# DOMAIN,exp-api.gettoby.com,Proxy
+# DOMAIN,nightly-app.gettoby.com,Proxy
+# DOMAIN,staging-app.gettoby.com,Proxy
 
 
 # 🎧 Forvo
-DOMAIN,api.forvo.com,Forvo
-DOMAIN,cdn.forvo.com,Forvo
-DOMAIN,www.forvo.com,Forvo
-DOMAIN-SUFFIX,forvo.com,Forvo
-DOMAIN-SUFFIX,forvo.net,Forvo
-DOMAIN-SUFFIX,forvo.io,Forvo
+# DOMAIN,api.forvo.com,Forvo
+# DOMAIN,cdn.forvo.com,Forvo
+# DOMAIN,www.forvo.com,Forvo
+# DOMAIN-SUFFIX,forvo.com,Forvo
+# DOMAIN-SUFFIX,forvo.net,Forvo
+# DOMAIN-SUFFIX,forvo.io,Forvo
 
 # 🤖 Kimi AI
-DOMAIN,api.kimi.moonshot.cn,Kimi AI
-DOMAIN-SUFFIX,kimi.moonshot.cn,Kimi AI
-DOMAIN-SUFFIX,docs.kimi.moonshot.cn,Kimi AI
-DOMAIN-SUFFIX,updates.kimi.moonshot.cn,Kimi AI
-DOMAIN-SUFFIX,cloud.kimi.moonshot.cn,Kimi AI
-DOMAIN-SUFFIX,support.kimi.moonshot.cn,Kimi AI
-DOMAIN-SUFFIX,moonshot.cn,Kimi AI
+# DOMAIN,api.kimi.moonshot.cn,Kimi AI
+# DOMAIN-SUFFIX,kimi.moonshot.cn,Kimi AI
+# DOMAIN-SUFFIX,docs.kimi.moonshot.cn,Kimi AI
+# DOMAIN-SUFFIX,updates.kimi.moonshot.cn,Kimi AI
+# DOMAIN-SUFFIX,cloud.kimi.moonshot.cn,Kimi AI
+# DOMAIN-SUFFIX,support.kimi.moonshot.cn,Kimi AI
+# DOMAIN-SUFFIX,moonshot.cn,Kimi AI
 
 # 📺 BiliBili HOST
-DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,BiliBili
-DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,BiliBili
-DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,BiliBili
-DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com,BiliBili
-DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com,BiliBili
-DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com,BiliBili
-DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com,BiliBili
-DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com,BiliBili
-DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com,BiliBili
-DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com,BiliBili
-DOMAIN,113-219-145-1.ksyungslb.com,BiliBili
-DOMAIN,114-236-92-129.ksyungslb.com,BiliBili
-DOMAIN,180-101-74-1.ksyungslb.com,BiliBili
-DOMAIN,219-155-150-1.ksyungslb.com,BiliBili
-DOMAIN,222-188-6-1.ksyungslb.com,BiliBili
-DOMAIN,36-104-134-1.ksyungslb.com,BiliBili
-DOMAIN,36-25-252-1.ksyungslb.com,BiliBili
-DOMAIN,p-bstarstatic.akamaized.net,BiliBili
-DOMAIN,p.bstarstatic.com,BiliBili
-DOMAIN,upos-bstar-mirrorakam.akamaized.net,BiliBili
-DOMAIN,upos-bstar1-mirrorakam.akamaized.net,BiliBili
+# DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,BiliBili
+# DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,BiliBili
+# DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,BiliBili
+# DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com,BiliBili
+# DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com,BiliBili
+# DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com,BiliBili
+# DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com,BiliBili
+# DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com,BiliBili
+# DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com,BiliBili
+# DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com,BiliBili
+# DOMAIN,113-219-145-1.ksyungslb.com,BiliBili
+# DOMAIN,114-236-92-129.ksyungslb.com,BiliBili
+# DOMAIN,180-101-74-1.ksyungslb.com,BiliBili
+# DOMAIN,219-155-150-1.ksyungslb.com,BiliBili
+# DOMAIN,222-188-6-1.ksyungslb.com,BiliBili
+# DOMAIN,36-104-134-1.ksyungslb.com,BiliBili
+# DOMAIN,36-25-252-1.ksyungslb.com,BiliBili
+# DOMAIN,p-bstarstatic.akamaized.net,BiliBili
+# DOMAIN,p.bstarstatic.com,BiliBili
+# DOMAIN,upos-bstar-mirrorakam.akamaized.net,BiliBili
+# DOMAIN,upos-bstar1-mirrorakam.akamaized.net,BiliBili
 
 # 📺 BiliBili HOST-SUFFIX
-DOMAIN-SUFFIX,bilibili.com,BiliBili
-DOMAIN-SUFFIX,bilibili.tv,BiliBili
-DOMAIN-SUFFIX,hdslb.com,BiliBili
-DOMAIN-SUFFIX,biliapi.net,BiliBili
-DOMAIN-SUFFIX,biliapi.com,BiliBili
-DOMAIN-SUFFIX,b23.tv,BiliBili
-DOMAIN-SUFFIX,acg.tv,BiliBili
-DOMAIN-SUFFIX,acgvideo.com,BiliBili
-DOMAIN-SUFFIX,animetamashi.cn,BiliBili
-DOMAIN-SUFFIX,bilivideo.com,BiliBili
-DOMAIN-SUFFIX,bilivideo.net,BiliBili
-DOMAIN-SUFFIX,hdslb.net,BiliBili
-DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net,BiliBili
-DOMAIN-SUFFIX,bilicdn1.com,BiliBili
-DOMAIN-SUFFIX,bilicdn2.com,BiliBili
-DOMAIN-SUFFIX,bilicdn3.com,BiliBili
-DOMAIN-SUFFIX,bilicdn4.com,BiliBili
-DOMAIN-SUFFIX,bilicdn5.com,BiliBili
-DOMAIN-SUFFIX,bilibili.cc,BiliBili
-DOMAIN-SUFFIX,bilibili.cn,BiliBili
-DOMAIN-SUFFIX,bilibilipay.com,BiliBili
-DOMAIN-SUFFIX,bilibilipay.cn,BiliBili
-DOMAIN-SUFFIX,biligame.com,BiliBili
-DOMAIN-SUFFIX,biligame.cn,BiliBili
-DOMAIN-SUFFIX,biliplus.com,BiliBili
-DOMAIN-SUFFIX,biliimg.com,BiliBili
-DOMAIN-SUFFIX,biliintl.com,BiliBili
-DOMAIN-SUFFIX,biliintl.co,BiliBili
-DOMAIN-SUFFIX,bilibiligame.co,BiliBili
-DOMAIN-SUFFIX,bilibiligame.net,BiliBili
+# DOMAIN-SUFFIX,bilibili.com,BiliBili
+# DOMAIN-SUFFIX,bilibili.tv,BiliBili
+# DOMAIN-SUFFIX,hdslb.com,BiliBili
+# DOMAIN-SUFFIX,biliapi.net,BiliBili
+# DOMAIN-SUFFIX,biliapi.com,BiliBili
+# DOMAIN-SUFFIX,b23.tv,BiliBili
+# DOMAIN-SUFFIX,acg.tv,BiliBili
+# DOMAIN-SUFFIX,acgvideo.com,BiliBili
+# DOMAIN-SUFFIX,animetamashi.cn,BiliBili
+# DOMAIN-SUFFIX,bilivideo.com,BiliBili
+# DOMAIN-SUFFIX,bilivideo.net,BiliBili
+# DOMAIN-SUFFIX,hdslb.net,BiliBili
+# DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net,BiliBili
+# DOMAIN-SUFFIX,bilicdn1.com,BiliBili
+# DOMAIN-SUFFIX,bilicdn2.com,BiliBili
+# DOMAIN-SUFFIX,bilicdn3.com,BiliBili
+# DOMAIN-SUFFIX,bilicdn4.com,BiliBili
+# DOMAIN-SUFFIX,bilicdn5.com,BiliBili
+# DOMAIN-SUFFIX,bilibili.cc,BiliBili
+# DOMAIN-SUFFIX,bilibili.cn,BiliBili
+# DOMAIN-SUFFIX,bilibilipay.com,BiliBili
+# DOMAIN-SUFFIX,bilibilipay.cn,BiliBili
+# DOMAIN-SUFFIX,biligame.com,BiliBili
+# DOMAIN-SUFFIX,biligame.cn,BiliBili
+# DOMAIN-SUFFIX,biliplus.com,BiliBili
+# DOMAIN-SUFFIX,biliimg.com,BiliBili
+# DOMAIN-SUFFIX,biliintl.com,BiliBili
+# DOMAIN-SUFFIX,biliintl.co,BiliBili
+# DOMAIN-SUFFIX,bilibiligame.co,BiliBili
+# DOMAIN-SUFFIX,bilibiligame.net,BiliBili
 
 # 📺 BiliBili USER-AGENT
-USER-AGENT,*bili*,BiliBili
-USER-AGENT,Bilibili*,BiliBili
-USER-AGENT,bili*,BiliBili
-USER-AGENT,bili-inter*,BiliBili
+# USER-AGENT,*bili*,BiliBili
+# USER-AGENT,Bilibili*,BiliBili
+# USER-AGENT,bili*,BiliBili
+# USER-AGENT,bili-inter*,BiliBili
 
 # 📺 BiliBili IP-CIDR
-IP-CIDR,106.75.74.76/32,BiliBili
-IP-CIDR,111.206.25.147/32,BiliBili
-IP-CIDR,119.3.238.64/32,BiliBili
-IP-CIDR,120.92.108.182/32,BiliBili
-IP-CIDR,120.92.113.99/32,BiliBili
-IP-CIDR,120.92.153.217/32,BiliBili
-IP-CIDR,134.175.207.130/32,BiliBili
-IP-CIDR,203.107.1.0/24,BiliBili
+# IP-CIDR,106.75.74.76/32,BiliBili
+# IP-CIDR,111.206.25.147/32,BiliBili
+# IP-CIDR,119.3.238.64/32,BiliBili
+# IP-CIDR,120.92.108.182/32,BiliBili
+# IP-CIDR,120.92.113.99/32,BiliBili
+# IP-CIDR,120.92.153.217/32,BiliBili
+# IP-CIDR,134.175.207.130/32,BiliBili
+# IP-CIDR,203.107.1.0/24,BiliBili
