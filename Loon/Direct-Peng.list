@@ -19,20 +19,6 @@ DOMAIN,images.seagm.com,SEAGM
 DOMAIN,assets.seagm.com,SEAGM
 DOMAIN,media.seagm.com,SEAGM
 
-# 🎮 SEAGM Cloudflare 相关
-DOMAIN,challenges.cloudflare.com,SEAGM
-DOMAIN,static.cloudflareinsights.com,SEAGM
-DOMAIN-SUFFIX,cloudflareinsights.com,SEAGM
-
-# 🎮 SEAGM Google 登录相关
-DOMAIN,accounts.google.com,SEAGM
-DOMAIN,oauth2.googleapis.com,SEAGM
-DOMAIN,www.googleapis.com,SEAGM
-DOMAIN,apis.google.com,SEAGM
-DOMAIN,ssl.gstatic.com,SEAGM
-DOMAIN,www.gstatic.com,SEAGM
-DOMAIN-SUFFIX,gstatic.com,SEAGM
-DOMAIN-SUFFIX,googleapis.com,SEAGM
 
 DOMAIN-SUFFIX,seagm.com,SEAGM
 
