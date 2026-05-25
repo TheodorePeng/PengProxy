@@ -1,0 +1,140 @@
+[Rule]
+
+
+# 🎮 SEAGM
+DOMAIN-SUFFIX,seagm.com
+DOMAIN,www.seagm.com
+DOMAIN,member.seagm.com
+DOMAIN,pay.seagm.com
+DOMAIN,news.seagm.com
+DOMAIN,help.seagm.com
+DOMAIN,support.seagm.com
+DOMAIN,api.seagm.com
+DOMAIN,m.seagm.com
+DOMAIN,static.seagm.com
+DOMAIN,cdn.seagm.com
+DOMAIN,img.seagm.com
+DOMAIN,images.seagm.com
+DOMAIN,assets.seagm.com
+DOMAIN,media.seagm.com
+DOMAIN-SUFFIX,seagm.com
+
+
+
+# Cursor应用相关域名
+# DOMAIN-SUFFIX,cursor.sh
+# DOMAIN-SUFFIX,cursor.so
+# DOMAIN,api.cursor.sh
+# DOMAIN,api2.cursor.sh
+# DOMAIN,app.cursor.sh
+# PROCESS-NAME,Cursor
+# PROCESS-NAME,Cursor.exe
+
+
+
+# Toby
+# DOMAIN-SUFFIX,gettoby.com
+
+# DOMAIN,api.gettoby.com
+# DOMAIN,api2.gettoby.com
+# DOMAIN,api-staging.gettoby.com
+# DOMAIN,api-staging2.gettoby.com
+# DOMAIN,app.gettoby.com
+# DOMAIN,web.gettoby.com
+# DOMAIN,logs.gettoby.com
+# DOMAIN,feedback.gettoby.com
+# DOMAIN,help.gettoby.com
+# DOMAIN,email.gettoby.com
+# DOMAIN,exp.gettoby.com
+# DOMAIN,exp-api.gettoby.com
+# DOMAIN,nightly-app.gettoby.com
+# DOMAIN,staging-app.gettoby.com
+
+
+# 🎧 Forvo
+# DOMAIN,api.forvo.com
+# DOMAIN,cdn.forvo.com
+# DOMAIN,www.forvo.com
+# DOMAIN-SUFFIX,forvo.com
+# DOMAIN-SUFFIX,forvo.net
+# DOMAIN-SUFFIX,forvo.io
+
+# 🤖 Kimi AI
+# DOMAIN,api.kimi.moonshot.cn
+# DOMAIN-SUFFIX,kimi.moonshot.cn
+# DOMAIN-SUFFIX,docs.kimi.moonshot.cn
+# DOMAIN-SUFFIX,updates.kimi.moonshot.cn
+# DOMAIN-SUFFIX,cloud.kimi.moonshot.cn
+# DOMAIN-SUFFIX,support.kimi.moonshot.cn
+# DOMAIN-SUFFIX,moonshot.cn
+
+# 📺 BiliBili HOST
+# DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
+# DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
+# DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com
+# DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com
+# DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com
+# DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com
+# DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com
+# DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com
+# DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com
+# DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com
+# DOMAIN,113-219-145-1.ksyungslb.com
+# DOMAIN,114-236-92-129.ksyungslb.com
+# DOMAIN,180-101-74-1.ksyungslb.com
+# DOMAIN,219-155-150-1.ksyungslb.com
+# DOMAIN,222-188-6-1.ksyungslb.com
+# DOMAIN,36-104-134-1.ksyungslb.com
+# DOMAIN,36-25-252-1.ksyungslb.com
+# DOMAIN,p-bstarstatic.akamaized.net
+# DOMAIN,p.bstarstatic.com
+# DOMAIN,upos-bstar-mirrorakam.akamaized.net
+# DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+
+# 📺 BiliBili HOST-SUFFIX
+# DOMAIN-SUFFIX,bilibili.com
+# DOMAIN-SUFFIX,bilibili.tv
+# DOMAIN-SUFFIX,hdslb.com
+# DOMAIN-SUFFIX,biliapi.net
+# DOMAIN-SUFFIX,biliapi.com
+# DOMAIN-SUFFIX,b23.tv
+# DOMAIN-SUFFIX,acg.tv
+# DOMAIN-SUFFIX,acgvideo.com
+# DOMAIN-SUFFIX,animetamashi.cn
+# DOMAIN-SUFFIX,bilivideo.com
+# DOMAIN-SUFFIX,bilivideo.net
+# DOMAIN-SUFFIX,hdslb.net
+# DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
+# DOMAIN-SUFFIX,bilicdn1.com
+# DOMAIN-SUFFIX,bilicdn2.com
+# DOMAIN-SUFFIX,bilicdn3.com
+# DOMAIN-SUFFIX,bilicdn4.com
+# DOMAIN-SUFFIX,bilicdn5.com
+# DOMAIN-SUFFIX,bilibili.cc
+# DOMAIN-SUFFIX,bilibili.cn
+# DOMAIN-SUFFIX,bilibilipay.com
+# DOMAIN-SUFFIX,bilibilipay.cn
+# DOMAIN-SUFFIX,biligame.com
+# DOMAIN-SUFFIX,biligame.cn
+# DOMAIN-SUFFIX,biliplus.com
+# DOMAIN-SUFFIX,biliimg.com
+# DOMAIN-SUFFIX,biliintl.com
+# DOMAIN-SUFFIX,biliintl.co
+# DOMAIN-SUFFIX,bilibiligame.co
+# DOMAIN-SUFFIX,bilibiligame.net
+
+# 📺 BiliBili USER-AGENT
+# USER-AGENT,*bili*
+# USER-AGENT,Bilibili*
+# USER-AGENT,bili*
+# USER-AGENT,bili-inter*
+
+# 📺 BiliBili IP-CIDR
+# IP-CIDR,106.75.74.76/32
+# IP-CIDR,111.206.25.147/32
+# IP-CIDR,119.3.238.64/32
+# IP-CIDR,120.92.108.182/32
+# IP-CIDR,120.92.113.99/32
+# IP-CIDR,120.92.153.217/32
+# IP-CIDR,134.175.207.130/32
+# IP-CIDR,203.107.1.0/24

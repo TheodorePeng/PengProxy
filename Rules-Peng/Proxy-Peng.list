@@ -1,0 +1,78 @@
+# 🍎 苹果服务（使用代理）
+# DOMAIN-SUFFIX,apple.com,PROXY
+# DOMAIN-SUFFIX,icloud.com,PROXY
+# DOMAIN-SUFFIX,itunes.apple.com,PROXY
+
+# 🧠 Notion
+DOMAIN,http-inputs-notion.splunkcloud.com
+DOMAIN-SUFFIX,notion-static.com
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion.new
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notion.so
+
+# 📝 RemNote
+DOMAIN,api.remnote.io
+DOMAIN-SUFFIX,remnote.com
+DOMAIN-SUFFIX,docs.remnote.com
+DOMAIN-SUFFIX,updates.remnote.com
+DOMAIN-SUFFIX,remnote.io
+
+# 🌐 AV
+DOMAIN,missav.com
+DOMAIN-SUFFIX,missav.com
+DOMAIN-SUFFIX,missav.ai
+DOMAIN-SUFFIX,missav.tv
+DOMAIN-SUFFIX,missav.ws
+DOMAIN-SUFFIX,missav.uno
+DOMAIN-SUFFIX,missav.vip
+DOMAIN-SUFFIX,missav01.cc
+
+
+DOMAIN-SUFFIX,taiav.com
+
+
+DOMAIN,rou.video
+DOMAIN-SUFFIX,rou.video
+
+
+# 欧乐
+DOMAIN-SUFFIX,olevod.com
+DOMAIN,www.olevod.com
+DOMAIN,m.olevod.com
+DOMAIN,match.olevod.com
+DOMAIN,details.olevod.com
+DOMAIN-SUFFIX,olehd.com
+DOMAIN-SUFFIX,olehdtv.com
+DOMAIN-SUFFIX,olelive.com
+DOMAIN-SUFFIX,olemovienews.com
+DOMAIN-SUFFIX,olevod.io
+DOMAIN-SUFFIX,olevod.tv
+DOMAIN-SUFFIX,olevodtv.com
+
+# 美剧天堂
+URL-REGEX,^https?:\/\/www\.meijutt\.org\/mhkh\/fushedierji\/1-7\.html$
+DOMAIN-SUFFIX,meijutt.org
+
+
+# 🐧 Linux DO
+DOMAIN,linux.do
+DOMAIN,cdn.ldstatic.com
+DOMAIN,status.linux.do
+DOMAIN-SUFFIX,linux.do
+DOMAIN-SUFFIX,ldstatic.com
+
+
+# 🎧 Apple Podcasts
+# DOMAIN,podcasts.apple.com,Apple Podcasts
+# DOMAIN-SUFFIX,itunes.apple.com,Apple Podcasts
+# DOMAIN-SUFFIX,apple.com,Apple Podcasts
+# USER-AGENT,com.apple.podcasts.*,Apple Podcasts
+# USER-AGENT,com.apple.MobileStore,Apple Podcasts
+# USER-AGENT,com.apple.AppStore,Apple Podcasts
+
+
+# 顶级机场主站域名
+
+DOMAIN-SUFFIX,djjc.cfd
+DOMAIN-SUFFIX,jsjc.cfd
