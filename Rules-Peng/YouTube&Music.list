@@ -21,14 +21,13 @@ DOMAIN-SUFFIX,youtube-nocookie.com
 
 # ============================
 # YouTube会员
-DOMAIN-SUFFIX, youtube.com
-DOMAIN-SUFFIX, googlevideo.com
-DOMAIN-SUFFIX, google.com
-DOMAIN-SUFFIX, gstatic.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,gstatic.com
 
 
 # ============================
-[notebooklm]
+# [notebooklm]
 # 对 notebooklm.google 的所有子域名和路径走美国节点
 DOMAIN-SUFFIX, notebooklm.google
 
@@ -253,6 +252,6 @@ USER-AGENT,com.google.ios.youtubemusic*
 # ============================
 # IP 地址段
 # ============================
-IP-CIDR,172.110.32.0/21
-IP-CIDR,216.73.80.0/20
-IP-CIDR6,2620:120:e000::/40
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
