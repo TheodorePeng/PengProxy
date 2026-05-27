@@ -1,5 +1,18 @@
 [Rule]
 
+# Clubhouse RTC/audio direct rules
+DOMAIN-SUFFIX,agora.io
+DOMAIN-SUFFIX,agoraio.cn
+DOMAIN-SUFFIX,voicemusic.net
+IP-CIDR,129.227.234.76/32,no-resolve
+IP-CIDR,129.227.234.81/32,no-resolve
+IP-CIDR,129.227.234.82/31,no-resolve
+IP-CIDR,129.227.234.84/32,no-resolve
+IP-CIDR,103.228.162.61/32,no-resolve
+IP-CIDR,101.251.217.28/32,no-resolve
+IP-CIDR,139.159.110.147/32,no-resolve
+IP-CIDR,139.159.110.148/32,no-resolve
+
 
 # 🎮 SEAGM
 DOMAIN-SUFFIX,seagm.com

@@ -9,24 +9,6 @@ DOMAIN-SUFFIX,clubhouseprod.com
 DOMAIN-SUFFIX,clubhouseprod.s3.amazonaws.com
 DOMAIN-SUFFIX,clubhouse.pubnub.com
 
-# Agora RTC/audio services should bypass proxy in Loon.
-DOMAIN-SUFFIX,agora.io,DIRECT
-DOMAIN-SUFFIX,agoraio.cn,DIRECT
-DOMAIN,ap3.agora.io,DIRECT
-DOMAIN,ap5-tls.agora.io,DIRECT
-DOMAIN,ap2-tds.agora.io,DIRECT
-DOMAIN,ap-tds-tls.agora.io,DIRECT
-DOMAIN,ap-oversea-tls.agora.io,DIRECT
-DOMAIN,ap-oversea.agora.io,DIRECT
-DOMAIN,ap-oversea2.agora.io,DIRECT
-DOMAIN,report-oversea.agora.io,DIRECT
-
-# High-frequency RTC/media IPs observed in 2026-05-27 Clubhouse logs.
-IP-CIDR,129.227.234.76/32,DIRECT,no-resolve
-IP-CIDR,129.227.234.81/32,DIRECT,no-resolve
-IP-CIDR,129.227.234.82/31,DIRECT,no-resolve
-IP-CIDR,129.227.234.84/32,DIRECT,no-resolve
-
 # Legacy Clubhouse IP-CIDR rules disabled to avoid forcing RTC media through Select.
 # IP-CIDR,103.59.49.10/32,no-resolve
 # IP-CIDR,103.65.41.166/32,no-resolve
