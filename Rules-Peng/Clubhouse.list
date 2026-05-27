@@ -4,6 +4,33 @@ DOMAIN-SUFFIX,joinclubhouse.com
 DOMAIN-SUFFIX,pubnubapi.com
 DOMAIN-SUFFIX,clubhouse.com
 
+# ============================================================
+# [已迁移] Clubhouse RTC / Agora 音视频直连规则
+# 以下内容已迁移至 Direct-Peng.list
+# 原因：Agora RTC 音视频流量建议直连，避免代理引入延迟和 WebSocket 兼容问题
+# ============================================================
+# DOMAIN-SUFFIX,agora.io
+# DOMAIN-SUFFIX,agoraio.cn
+# DOMAIN-SUFFIX,voicemusic.net
+# IP-CIDR,129.227.234.76/32,no-resolve
+# IP-CIDR,129.227.234.81/32,no-resolve
+# IP-CIDR,129.227.234.82/31,no-resolve
+# IP-CIDR,129.227.234.84/32,no-resolve
+# IP-CIDR,103.228.162.61/32,no-resolve
+# IP-CIDR,101.251.217.28/32,no-resolve
+# IP-CIDR,139.159.110.147/32,no-resolve
+# IP-CIDR,139.159.110.148/32,no-resolve
+#
+# # 以下旧版明细规则已被 DOMAIN-SUFFIX,agora.io 通配覆盖，保留记录
+# DOMAIN-SUFFIX,ap3.agora.io
+# DOMAIN,ap5-tls.agora.io
+# DOMAIN,ap2-tds.agora.io
+# DOMAIN,ap-tds-tls.agora.io
+# DOMAIN,ap-oversea-tls.agora.io
+# DOMAIN,ap-oversea.agora.io
+# DOMAIN,ap-oversea2.agora.io
+# DOMAIN,report-oversea.agora.io
+
 # Clubhouse static/media metadata
 DOMAIN-SUFFIX,clubhouseprod.com
 DOMAIN-SUFFIX,clubhouseprod.s3.amazonaws.com
