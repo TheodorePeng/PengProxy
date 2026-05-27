@@ -1,107 +1,114 @@
-
-# 🌐 Clubhouse App 核心服务
+# Clubhouse control-plane services
 DOMAIN-SUFFIX,clubhouseapi.com
 DOMAIN-SUFFIX,joinclubhouse.com
-
-# 🌐 媒体资源
-DOMAIN-SUFFIX,clubhouseprod.com
-
-# 🌐 其他 ClubhouseIP 主机（AGORA 实时服务）
-DOMAIN,ap-oversea-tls.agora.io
-DOMAIN,ap-oversea.agora.io
-DOMAIN,ap-oversea2.agora.io
-DOMAIN,report-oversea.agora.io
-
-# 🌍 走 PROXY 的域名（可用作增强匹配）
-DOMAIN-SUFFIX,clubhouseprod.s3.amazonaws.com
-DOMAIN-SUFFIX,clubhouse.pubnub.com
-DOMAIN-SUFFIX,ap3.agora.io
-
-# ✅ 其他主机匹配
+DOMAIN-SUFFIX,pubnubapi.com
 DOMAIN-SUFFIX,clubhouse.com
 
-# 🌐 IP-CIDR（适用于 ClubhouseIP 策略组）
-IP-CIDR,103.59.49.10/32,no-resolve
-IP-CIDR,103.65.41.166/32,no-resolve
-IP-CIDR,103.65.41.169/32,no-resolve
-IP-CIDR,103.98.18.181/32,no-resolve
-IP-CIDR,103.98.18.183/32,no-resolve
-IP-CIDR,103.98.18.184/32,no-resolve
-IP-CIDR,103.98.18.189/32,no-resolve
-IP-CIDR,120.227.115.126/32,no-resolve
-IP-CIDR,122.10.255.165/32,no-resolve
-IP-CIDR,128.1.87.196/32,no-resolve
-IP-CIDR,129.227.115.130/32,no-resolve
-IP-CIDR,129.227.156.17/32,no-resolve
-IP-CIDR,129.227.156.20/32,no-resolve
-IP-CIDR,129.227.234.110/32,no-resolve
-IP-CIDR,129.227.234.112/32,no-resolve
-IP-CIDR,129.227.234.119/32,no-resolve
-IP-CIDR,129.227.234.124/32,no-resolve
-IP-CIDR,129.227.234.67/32,no-resolve
-IP-CIDR,129.227.234.70/32,no-resolve
-IP-CIDR,129.227.234.82/31,no-resolve
-IP-CIDR,129.227.57.132/32,no-resolve
-IP-CIDR,129.227.57.134/32,no-resolve
-IP-CIDR,129.227.57.137/32,no-resolve
-IP-CIDR,129.227.57.143/32,no-resolve
-IP-CIDR,129.227.57.145/32,no-resolve
-IP-CIDR,129.227.71.130/31,no-resolve
-IP-CIDR,129.227.71.132/31,no-resolve
-IP-CIDR,129.227.71.134/32,no-resolve
-IP-CIDR,129.227.71.140/30,no-resolve
-IP-CIDR,129.227.71.144/32,no-resolve
-IP-CIDR,129.227.71.203/32,no-resolve
-IP-CIDR,13.230.60.35/32,no-resolve
-IP-CIDR,148.153.126.146/32,no-resolve
-IP-CIDR,148.153.172.73/32,no-resolve
-IP-CIDR,148.153.172.74/31,no-resolve
-IP-CIDR,148.153.172.76/31,no-resolve
-IP-CIDR,164.52.0.244/32,no-resolve
-IP-CIDR,164.52.102.35/32,no-resolve
-IP-CIDR,164.52.102.66/31,no-resolve
-IP-CIDR,164.52.102.68/31,no-resolve
-IP-CIDR,164.52.102.70/32,no-resolve
-IP-CIDR,164.52.102.75/32,no-resolve
-IP-CIDR,164.52.102.76/31,no-resolve
-IP-CIDR,164.52.102.91/32,no-resolve
-IP-CIDR,164.52.124.102/32,no-resolve
-IP-CIDR,164.52.32.57/32,no-resolve
-IP-CIDR,164.52.32.59/32,no-resolve
-IP-CIDR,164.52.32.60/32,no-resolve
-IP-CIDR,164.52.36.228/32,no-resolve
-IP-CIDR,164.52.36.232/32,no-resolve
-IP-CIDR,164.52.36.238/32,no-resolve
-IP-CIDR,164.52.36.243/32,no-resolve
-IP-CIDR,164.52.36.245/32,no-resolve
-IP-CIDR,164.52.36.254/32,no-resolve
-IP-CIDR,164.52.6.19/32,no-resolve
-IP-CIDR,164.52.6.21/32,no-resolve
-IP-CIDR,164.52.6.23/32,no-resolve
-IP-CIDR,164.52.6.24/31,no-resolve
-IP-CIDR,199.190.44.36/31,no-resolve
-IP-CIDR,202.181.136.106/32,no-resolve
-IP-CIDR,202.226.25.162/32,no-resolve
-IP-CIDR,202.226.25.166/32,no-resolve
-IP-CIDR,202.226.25.171/32,no-resolve
-IP-CIDR,202.226.25.195/32,no-resolve
-IP-CIDR,202.226.25.198/32,no-resolve
-IP-CIDR,23.248.191.103/32,no-resolve
-IP-CIDR,23.248.191.105/32,no-resolve
-IP-CIDR,23.98.43.152/32,no-resolve
-IP-CIDR,3.0.163.78/32,no-resolve
-IP-CIDR,35.178.208.187/32,no-resolve
-IP-CIDR,45.255.124.100/31,no-resolve
-IP-CIDR,45.255.124.104/31,no-resolve
-IP-CIDR,45.255.124.107/32,no-resolve
-IP-CIDR,45.255.124.108/31,no-resolve
-IP-CIDR,45.255.124.135/32,no-resolve
-IP-CIDR,45.255.124.98/32,no-resolve
-IP-CIDR,45.40.48.11/32,no-resolve
-IP-CIDR,50.17.126.121/32,no-resolve
-IP-CIDR,52.194.158.59/32,no-resolve
-IP-CIDR,52.221.46.208/32,no-resolve
-IP-CIDR,52.52.84.170/32,no-resolve
-IP-CIDR,52.58.56.244/32,no-resolve
-IP-CIDR,54.178.26.110/32,no-resolve
-IP-CIDR,69.28.51.148/32,no-resolve
+# Clubhouse static/media metadata
+DOMAIN-SUFFIX,clubhouseprod.com
+DOMAIN-SUFFIX,clubhouseprod.s3.amazonaws.com
+DOMAIN-SUFFIX,clubhouse.pubnub.com
+
+# Agora RTC/audio services should bypass proxy in Loon.
+DOMAIN-SUFFIX,agora.io,DIRECT
+DOMAIN-SUFFIX,agoraio.cn,DIRECT
+DOMAIN,ap3.agora.io,DIRECT
+DOMAIN,ap5-tls.agora.io,DIRECT
+DOMAIN,ap2-tds.agora.io,DIRECT
+DOMAIN,ap-tds-tls.agora.io,DIRECT
+DOMAIN,ap-oversea-tls.agora.io,DIRECT
+DOMAIN,ap-oversea.agora.io,DIRECT
+DOMAIN,ap-oversea2.agora.io,DIRECT
+DOMAIN,report-oversea.agora.io,DIRECT
+
+# High-frequency RTC/media IPs observed in 2026-05-27 Clubhouse logs.
+IP-CIDR,129.227.234.76/32,DIRECT,no-resolve
+IP-CIDR,129.227.234.81/32,DIRECT,no-resolve
+IP-CIDR,129.227.234.82/31,DIRECT,no-resolve
+IP-CIDR,129.227.234.84/32,DIRECT,no-resolve
+
+# Legacy Clubhouse IP-CIDR rules disabled to avoid forcing RTC media through Select.
+# IP-CIDR,103.59.49.10/32,no-resolve
+# IP-CIDR,103.65.41.166/32,no-resolve
+# IP-CIDR,103.65.41.169/32,no-resolve
+# IP-CIDR,103.98.18.181/32,no-resolve
+# IP-CIDR,103.98.18.183/32,no-resolve
+# IP-CIDR,103.98.18.184/32,no-resolve
+# IP-CIDR,103.98.18.189/32,no-resolve
+# IP-CIDR,120.227.115.126/32,no-resolve
+# IP-CIDR,122.10.255.165/32,no-resolve
+# IP-CIDR,128.1.87.196/32,no-resolve
+# IP-CIDR,129.227.115.130/32,no-resolve
+# IP-CIDR,129.227.156.17/32,no-resolve
+# IP-CIDR,129.227.156.20/32,no-resolve
+# IP-CIDR,129.227.234.110/32,no-resolve
+# IP-CIDR,129.227.234.112/32,no-resolve
+# IP-CIDR,129.227.234.119/32,no-resolve
+# IP-CIDR,129.227.234.124/32,no-resolve
+# IP-CIDR,129.227.234.67/32,no-resolve
+# IP-CIDR,129.227.234.70/32,no-resolve
+# IP-CIDR,129.227.234.82/31,no-resolve
+# IP-CIDR,129.227.57.132/32,no-resolve
+# IP-CIDR,129.227.57.134/32,no-resolve
+# IP-CIDR,129.227.57.137/32,no-resolve
+# IP-CIDR,129.227.57.143/32,no-resolve
+# IP-CIDR,129.227.57.145/32,no-resolve
+# IP-CIDR,129.227.71.130/31,no-resolve
+# IP-CIDR,129.227.71.132/31,no-resolve
+# IP-CIDR,129.227.71.134/32,no-resolve
+# IP-CIDR,129.227.71.140/30,no-resolve
+# IP-CIDR,129.227.71.144/32,no-resolve
+# IP-CIDR,129.227.71.203/32,no-resolve
+# IP-CIDR,13.230.60.35/32,no-resolve
+# IP-CIDR,148.153.126.146/32,no-resolve
+# IP-CIDR,148.153.172.73/32,no-resolve
+# IP-CIDR,148.153.172.74/31,no-resolve
+# IP-CIDR,148.153.172.76/31,no-resolve
+# IP-CIDR,164.52.0.244/32,no-resolve
+# IP-CIDR,164.52.102.35/32,no-resolve
+# IP-CIDR,164.52.102.66/31,no-resolve
+# IP-CIDR,164.52.102.68/31,no-resolve
+# IP-CIDR,164.52.102.70/32,no-resolve
+# IP-CIDR,164.52.102.75/32,no-resolve
+# IP-CIDR,164.52.102.76/31,no-resolve
+# IP-CIDR,164.52.102.91/32,no-resolve
+# IP-CIDR,164.52.124.102/32,no-resolve
+# IP-CIDR,164.52.32.57/32,no-resolve
+# IP-CIDR,164.52.32.59/32,no-resolve
+# IP-CIDR,164.52.32.60/32,no-resolve
+# IP-CIDR,164.52.36.228/32,no-resolve
+# IP-CIDR,164.52.36.232/32,no-resolve
+# IP-CIDR,164.52.36.238/32,no-resolve
+# IP-CIDR,164.52.36.243/32,no-resolve
+# IP-CIDR,164.52.36.245/32,no-resolve
+# IP-CIDR,164.52.36.254/32,no-resolve
+# IP-CIDR,164.52.6.19/32,no-resolve
+# IP-CIDR,164.52.6.21/32,no-resolve
+# IP-CIDR,164.52.6.23/32,no-resolve
+# IP-CIDR,164.52.6.24/31,no-resolve
+# IP-CIDR,199.190.44.36/31,no-resolve
+# IP-CIDR,202.181.136.106/32,no-resolve
+# IP-CIDR,202.226.25.162/32,no-resolve
+# IP-CIDR,202.226.25.166/32,no-resolve
+# IP-CIDR,202.226.25.171/32,no-resolve
+# IP-CIDR,202.226.25.195/32,no-resolve
+# IP-CIDR,202.226.25.198/32,no-resolve
+# IP-CIDR,23.248.191.103/32,no-resolve
+# IP-CIDR,23.248.191.105/32,no-resolve
+# IP-CIDR,23.98.43.152/32,no-resolve
+# IP-CIDR,3.0.163.78/32,no-resolve
+# IP-CIDR,35.178.208.187/32,no-resolve
+# IP-CIDR,45.255.124.100/31,no-resolve
+# IP-CIDR,45.255.124.104/31,no-resolve
+# IP-CIDR,45.255.124.107/32,no-resolve
+# IP-CIDR,45.255.124.108/31,no-resolve
+# IP-CIDR,45.255.124.135/32,no-resolve
+# IP-CIDR,45.255.124.98/32,no-resolve
+# IP-CIDR,45.40.48.11/32,no-resolve
+# IP-CIDR,50.17.126.121/32,no-resolve
+# IP-CIDR,52.194.158.59/32,no-resolve
+# IP-CIDR,52.221.46.208/32,no-resolve
+# IP-CIDR,52.52.84.170/32,no-resolve
+# IP-CIDR,52.58.56.244/32,no-resolve
+# IP-CIDR,54.178.26.110/32,no-resolve
+# IP-CIDR,69.28.51.148/32,no-resolve
