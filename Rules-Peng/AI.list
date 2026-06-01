@@ -38,6 +38,7 @@ DOMAIN,files.oaiusercontent.com
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,gemini.google.com
+DOMAIN,gemini.gstatic.com
 DOMAIN,makersuite.google.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,bard.google.com
