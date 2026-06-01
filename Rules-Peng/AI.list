@@ -51,6 +51,16 @@ DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
 
+# Gemini 地区绕过关键：Google 账户与鉴权
+DOMAIN,accounts.google.com
+DOMAIN,myaccount.google.com
+DOMAIN,ogs.google.com
+DOMAIN,play.google.com
+DOMAIN,www.google.com
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
+
 # Microsoft Copilot / Bing AI
 
 DOMAIN,api.msn.com
