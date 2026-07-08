@@ -2,25 +2,26 @@
 # Organized as a generic rule-set without per-rule policy names.
 
 
-# Siri AI
-1  # Apple Intelligence / Siri / Relay 建议走美国节点规则
-2  DOMAIN,guzzoni.apple.com
-3  DOMAIN-SUFFIX,smoot.apple.com
-4  DOMAIN-SUFFIX,apple-relay.apple.com
-5  DOMAIN-SUFFIX,apple-relay.cloudflare.com
-6  DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-7  DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
-8  DOMAIN-SUFFIX,cp4.cloudflare.com
-9  DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
-10 DOMAIN-SUFFIX,gateway.icloud.com
-11 DOMAIN-SUFFIX,apps.mzstatic.com
-12 DOMAIN,mask-api.fe.apple-dns.net
-13 DOMAIN,mask-api.icloud.com
-14 DOMAIN,mask-t.apple-dns.net
-15 DOMAIN,mask.apple-dns.net
-16 DOMAIN-SUFFIX,ls.apple.com
-17 DOMAIN-SUFFIX,mask-h2.icloud.com
-18 DOMAIN-SUFFIX,mask.icloud.com
+
+# Apple Intelligence / Siri / Relay 建议走美国节点规则
+
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
 
 # OpenAI / ChatGPT
 
