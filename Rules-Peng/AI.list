@@ -127,3 +127,17 @@ IP-ASN,14061,no-resolve
 DOMAIN,033249.ingest.sentry.io
 DOMAIN,s.gravatar.com
 DOMAIN,chatgpt-async-webps-prod-centralus-1.webpubsub.azure.com
+
+
+# Anthropic / Claude
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+
+# AI API & Model Providers (OpenRouter / Groq / Agnes AI)
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-KEYWORD,openrouter
+DOMAIN-KEYWORD,groq
+DOMAIN-KEYWORD,agnes-ai
