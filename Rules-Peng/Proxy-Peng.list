@@ -84,3 +84,9 @@ DOMAIN-SUFFIX,ldstatic.com
 
 DOMAIN-SUFFIX,djjc.cfd
 DOMAIN-SUFFIX,jsjc.cfd
+
+# 🤖 Reddit
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
