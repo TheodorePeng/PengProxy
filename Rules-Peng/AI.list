@@ -142,57 +142,94 @@ DOMAIN-KEYWORD,openrouter
 DOMAIN-KEYWORD,groq
 DOMAIN-KEYWORD,agnes-ai
 
-# ============================================================
-# Google Antigravity
-# Antigravity IDE + Antigravity 2.0 App + Antigravity CLI
-# ============================================================
 
-# ---------- Antigravity 官方站点 / Feature Flags ----------
+
+# =====================================================
+# Google Antigravity
+# IDE + APP + CLI + Browser Agent
+# =====================================================
+
+
+# =====================================================
+# Antigravity Core
+# =====================================================
+
 DOMAIN,antigravity.google
-DOMAIN,antigravity.google.com
 DOMAIN,antigravity-unleash.goog
 
-# ---------- Google 登录 / OAuth ----------
-DOMAIN,accounts.google.com
-DOMAIN,oauth2.googleapis.com
-DOMAIN,www.googleapis.com
 
-# ---------- Antigravity / Gemini Code Assist 核心 API ----------
-DOMAIN,cloudaicompanion.googleapis.com
-DOMAIN,aicode.googleapis.com
-DOMAIN,generativelanguage.googleapis.com
+# =====================================================
+# Google Code Assist Backend
+# 核心 AI 请求
+# =====================================================
 
 DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
-DOMAIN,canary-cloudcode-pa.googleapis.com
 
-# ---------- Google 后台日志 / 配置 ----------
+
+# =====================================================
+# Gemini / AI API
+# =====================================================
+
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,aicode.googleapis.com
+DOMAIN,cloudaicompanion.googleapis.com
+
+
+# =====================================================
+# Google Authentication
+# 登录 / OAuth
+# =====================================================
+
+DOMAIN,accounts.google.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,www.googleapis.com
+
+
+# =====================================================
+# Google API / Resource
+# =====================================================
+
 DOMAIN,play.googleapis.com
-DOMAIN,safebrowsing.googleapis.com
-
-# ---------- Google 静态资源 / 用户信息 ----------
 DOMAIN,lh3.googleusercontent.com
 DOMAIN,www.gstatic.com
 
-# ---------- Antigravity 2.0 App 更新 ----------
-DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app
-DOMAIN,antigravity-auto-updater-974169037036.us-central1.run.app
-DOMAIN,antigravity-auto-updater-insider-974169037036.us-central1.run.app
 
-# ---------- Antigravity IDE 更新 ----------
-DOMAIN,antigravity-ide-auto-updater-974169037036.us-central1.run.app
-DOMAIN,edgedl.me.gvt1.com
+# =====================================================
+# Antigravity Update
+# App / IDE / CLI 更新
+# =====================================================
 
-# ---------- Antigravity CLI 安装 / 更新 ----------
 DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app
+
+DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app
+
+DOMAIN,antigravity-ide-auto-updater-974169037036.us-central1.run.app
+
+
+# =====================================================
+# Google Cloud Storage
+# CLI 下载、组件更新
+# =====================================================
+
 DOMAIN,storage.googleapis.com
 
-# ---------- IDE Extension Marketplace ----------
-DOMAIN-SUFFIX,open-vsx.org
 
-# ---------- Browser Agent / Playwright ----------
+# =====================================================
+# Browser Agent
+# Playwright Browser Runtime
+# =====================================================
+
 DOMAIN,playwright.azureedge.net
 DOMAIN,playwright-akamai.azureedge.net
 DOMAIN,playwright-verizon.azureedge.net
 DOMAIN,cdn.playwright.dev
+
+
+# =====================================================
+# Extension Marketplace
+# VS Code ecosystem
+# =====================================================
+
+DOMAIN-SUFFIX,open-vsx.org
