@@ -93,3 +93,45 @@ DOMAIN-SUFFIX,redditstatic.com
 
 # MacKed
 DOMAIN-SUFFIX,macked.app
+
+
+# =====================================================
+# ChatGPT Web
+# =====================================================
+
+# Core
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+
+# Static / Files
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# Feature Flags
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+
+# Authentication
+DOMAIN,auth0.openai.com
+DOMAIN,setup.auth.openai.com
+
+# Cloudflare
+DOMAIN,challenges.cloudflare.com
+
+# WorkOS
+DOMAIN,cdn.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,setup.workos.com
+DOMAIN,images.workoscdn.com
+DOMAIN,workos.imgix.net
+
+# Support
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+
+# Payment
+DOMAIN,js.stripe.com
+
+# CDN
+DOMAIN,cdn.openaimerge.com
