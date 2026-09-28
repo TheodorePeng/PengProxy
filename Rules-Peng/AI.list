@@ -2,6 +2,25 @@
 # Organized as a generic rule-set without per-rule policy names.
 
 
+# 🧠 Notion
+# Notion Core
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notion.new
+
+# Notion Static / User Content
+DOMAIN-SUFFIX,notion-static.com
+DOMAIN-SUFFIX,notionusercontent.com
+
+# Notion legacy / company / deep links
+DOMAIN-SUFFIX,makenotion.com
+
+# Notion telemetry / diagnostics
+DOMAIN,http-inputs-notion.splunkcloud.com
+
+
+
 
 # Apple Intelligence / Siri / Relay 建议走美国节点规则
 

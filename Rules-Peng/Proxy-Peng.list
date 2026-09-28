@@ -9,22 +9,7 @@ DOMAIN-SUFFIX,tabbit-ai.com
 DOMAIN-SUFFIX,tabbit.ai
 DOMAIN-SUFFIX,tabbitbrowser.ai
 
-# 🧠 Notion
-# Notion Core
-DOMAIN-SUFFIX,notion.com
-DOMAIN-SUFFIX,notion.so
-DOMAIN-SUFFIX,notion.site
-DOMAIN-SUFFIX,notion.new
 
-# Notion Static / User Content
-DOMAIN-SUFFIX,notion-static.com
-DOMAIN-SUFFIX,notionusercontent.com
-
-# Notion legacy / company / deep links
-DOMAIN-SUFFIX,makenotion.com
-
-# Notion telemetry / diagnostics
-DOMAIN,http-inputs-notion.splunkcloud.com
 
 
 # 📝 RemNote
