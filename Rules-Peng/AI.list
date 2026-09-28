@@ -23,78 +23,128 @@ DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,mask-h2.icloud.com
 DOMAIN-SUFFIX,mask.icloud.com
 
+
+
+
+# =====================================================
 # OpenAI / ChatGPT
-
-DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN,openai-api.arkoselabs.com
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,host.livekit.cloud
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,openaicom.imgix.net
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,openaicom-api
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,20473,no-resolve
-DOMAIN,api.openai.com
-DOMAIN,gpt3.openai.com
-DOMAIN,platform.openai.com
-DOMAIN,openaiusercontent.com
-DOMAIN,chat.openai.com
-DOMAIN,ios.chat.openai.com
-DOMAIN,ab.chatgpt.com
-DOMAIN,auth0.openai.com
-DOMAIN,files.oaiusercontent.com
-
-# =====================================================
-# ChatGPT Web
+# Optimized for ChatGPT Web
+# Updated: 2026-09
 # =====================================================
 
-# Core
+
+# -----------------------------------------------------
+# 1. Core / First-party
+# -----------------------------------------------------
+
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
 
-# Static / Files
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-
-# Feature Flags
 DOMAIN-SUFFIX,oaistatsig.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
 
-# Authentication
-DOMAIN,auth0.openai.com
-DOMAIN,setup.auth.openai.com
+# Short ChatGPT entry point
+DOMAIN,chat.com
 
-# Cloudflare
+# OpenAI CDN
+DOMAIN,cdn.openaimerge.com
+
+
+# -----------------------------------------------------
+# 2. Authentication / Login / Verification
+# -----------------------------------------------------
+
 DOMAIN,challenges.cloudflare.com
 
-# WorkOS
 DOMAIN,cdn.workos.com
 DOMAIN,forwarder.workos.com
 DOMAIN,setup.workos.com
 DOMAIN,images.workoscdn.com
 DOMAIN,workos.imgix.net
 
-# Support
+
+# -----------------------------------------------------
+# 3. Email / Account related
+# -----------------------------------------------------
+
+DOMAIN-SUFFIX,ct.sendgrid.net
+
+
+# -----------------------------------------------------
+# 4. Support / Intercom
+# -----------------------------------------------------
+
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 
-# Payment
+
+# -----------------------------------------------------
+# 5. Payment
+# -----------------------------------------------------
+
 DOMAIN,js.stripe.com
 
-# CDN
-DOMAIN,cdn.openaimerge.com
+
+# -----------------------------------------------------
+# 6. Telemetry / Error reporting
+# -----------------------------------------------------
+
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
+
+# Seen in actual ChatGPT traffic
+DOMAIN,o33249.ingest.us.sentry.io
+
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN,browser-intake-datadoghq.com
+
+
+# -----------------------------------------------------
+# 7. Legacy Statsig / Feature Flags
+# Keep for compatibility
+# -----------------------------------------------------
+
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+
+DOMAIN,featureassets.org
+DOMAIN,prodregistryv2.org
+
+
+# -----------------------------------------------------
+# 8. Arkose / Anti-abuse compatibility
+# -----------------------------------------------------
+
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+
+
+# -----------------------------------------------------
+# 9. Historical OpenAI CDN / Azure infrastructure
+# Low collateral risk, keep for compatibility
+# -----------------------------------------------------
+
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+
+
+# -----------------------------------------------------
+# 10. ChatGPT Voice / LiveKit compatibility
+# -----------------------------------------------------
+
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+
+
 
 
 
