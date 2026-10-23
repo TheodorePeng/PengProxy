@@ -163,29 +163,12 @@ DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,turn.livekit.cloud
 
+# =====================================================
+# Google 账号 / 鉴权 / CDN（与 Gemini&Antigravity.list 共用）
+# 这些域名同时被 Gemini / Antigravity 与 ChatGPT / Notion 的 Google 登录使用，
+# 因此两个文件各保留一份，保证 Gemini 规则集可独立绑定策略组。
+# =====================================================
 
-
-
-
-# Google AI / Gemini
-
-DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,gemini.google.com
-DOMAIN,gemini.gstatic.com
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
-
-# Gemini 地区绕过关键：Google 账户与鉴权
 DOMAIN,accounts.google.com
 DOMAIN,myaccount.google.com
 DOMAIN,ogs.google.com
@@ -194,6 +177,12 @@ DOMAIN,www.google.com
 DOMAIN-SUFFIX,withgoogle.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,gstatic.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,www.googleapis.com
+DOMAIN,play.googleapis.com
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,www.gstatic.com
+DOMAIN,storage.googleapis.com
 
 # Microsoft Copilot / Bing AI
 
@@ -253,96 +242,3 @@ DOMAIN-SUFFIX,groq.com
 DOMAIN-KEYWORD,openrouter
 DOMAIN-KEYWORD,groq
 DOMAIN-KEYWORD,agnes-ai
-
-
-
-# =====================================================
-# Google Antigravity
-# IDE + APP + CLI + Browser Agent
-# =====================================================
-
-
-# =====================================================
-# Antigravity Core
-# =====================================================
-
-DOMAIN,antigravity.google
-DOMAIN,antigravity-unleash.goog
-
-
-# =====================================================
-# Google Code Assist Backend
-# 核心 AI 请求
-# =====================================================
-
-DOMAIN,cloudcode-pa.googleapis.com
-DOMAIN,daily-cloudcode-pa.googleapis.com
-DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
-
-
-# =====================================================
-# Gemini / AI API
-# =====================================================
-
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,aicode.googleapis.com
-DOMAIN,cloudaicompanion.googleapis.com
-
-
-# =====================================================
-# Google Authentication
-# 登录 / OAuth
-# =====================================================
-
-DOMAIN,accounts.google.com
-DOMAIN,oauth2.googleapis.com
-DOMAIN,www.googleapis.com
-
-
-# =====================================================
-# Google API / Resource
-# =====================================================
-
-DOMAIN,play.googleapis.com
-DOMAIN,lh3.googleusercontent.com
-DOMAIN,www.gstatic.com
-
-
-# =====================================================
-# Antigravity Update
-# App / IDE / CLI 更新
-# =====================================================
-
-DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app
-
-DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app
-
-DOMAIN,antigravity-ide-auto-updater-974169037036.us-central1.run.app
-
-
-# =====================================================
-# Google Cloud Storage
-# CLI 下载、组件更新
-# =====================================================
-
-DOMAIN,storage.googleapis.com
-
-
-# =====================================================
-# Browser Agent
-# Playwright Browser Runtime
-# =====================================================
-
-DOMAIN,playwright.azureedge.net
-DOMAIN,playwright-akamai.azureedge.net
-DOMAIN,playwright-verizon.azureedge.net
-DOMAIN,cdn.playwright.dev
-
-
-# =====================================================
-# Extension Marketplace
-# VS Code ecosystem
-# =====================================================
-
-DOMAIN-SUFFIX,open-vsx.org
-

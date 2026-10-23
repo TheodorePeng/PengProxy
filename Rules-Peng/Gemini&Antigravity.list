@@ -1,0 +1,76 @@
+# NAME: Gemini & Google Antigravity
+# AUTHOR: Peng (split out from AI.list)
+# UPDATED: 2026-10-23
+# DESCRIPTION: Gemini / AI Studio / Antigravity (IDE + APP + CLI + Browser Agent) rules.
+#              Policy-less generic rule-set (no per-rule policy column).
+# NOTE: Bind to a US-capable policy. Google account + CDN domains are included so the
+#       Gemini sign-in chain exits through one consistent IP.
+
+
+# =====================================================
+# Gemini 账号 / 鉴权 / CDN（与 AI.list 共用）
+# =====================================================
+
+DOMAIN,accounts.google.com
+DOMAIN,myaccount.google.com
+DOMAIN,ogs.google.com
+DOMAIN,play.google.com
+DOMAIN,www.google.com
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,www.googleapis.com
+DOMAIN,play.googleapis.com
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,www.gstatic.com
+DOMAIN,storage.googleapis.com
+
+# =====================================================
+# Gemini Core / AI Studio
+# =====================================================
+
+DOMAIN,ai.google.dev
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,gemini.google.com
+DOMAIN,gemini.gstatic.com
+DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+
+# =====================================================
+# Antigravity 专属端点
+# =====================================================
+
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN,antigravity-unleash.goog
+DOMAIN,cloudcode-pa.googleapis.com
+DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,aicode.googleapis.com
+DOMAIN,cloudaicompanion.googleapis.com
+DOMAIN,playwright.azureedge.net
+DOMAIN,playwright-akamai.azureedge.net
+DOMAIN,playwright-verizon.azureedge.net
+DOMAIN,cdn.playwright.dev
+DOMAIN-SUFFIX,open-vsx.org
+DOMAIN-SUFFIX,us-central1.run.app
+
+# =====================================================
+# Antigravity 2.0 补充端点
+# =====================================================
+
+DOMAIN,aistudio.google.com
+DOMAIN,securetoken.googleapis.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-KEYWORD,antigravity
