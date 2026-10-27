@@ -1,3 +1,9 @@
+# NAME: Clubhouse-Peng
+# AUTHOR: Peng
+# UPDATED: 2026-10-27
+# DESCRIPTION: Clubhouse control-plane services and static metadata.
+# FORMAT: Policy-less generic RULE-SET (compatible with Surge, Loon, Shadowrocket)
+
 # Clubhouse control-plane services
 DOMAIN-SUFFIX,clubhouseapi.com
 DOMAIN-SUFFIX,joinclubhouse.com
