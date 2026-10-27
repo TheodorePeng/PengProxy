@@ -1,0 +1,65 @@
+# NAME: Other-AI
+# AUTHOR: Peng (split out from AI.list)
+# UPDATED: 2026-10-27
+# DESCRIPTION: AI services other than ChatGPT and Apple Intelligence:
+#              Microsoft Copilot / Bing AI, Anthropic Claude, OpenRouter / Groq / Agnes AI,
+#              and shared AI supporting infrastructure.
+# NOTE: Shared AI Infrastructure section contains broad rules kept as-is; see its comment.
+# FORMAT: Policy-less generic RULE-SET (compatible with Surge, Loon, Shadowrocket)
+
+# Microsoft Copilot / Bing AI
+
+DOMAIN,api.msn.com
+DOMAIN,assets.msn.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,location.microsoft.com
+DOMAIN,odc.officeapps.live.com
+DOMAIN,r.bing.com
+DOMAIN,self.events.data.microsoft.com
+DOMAIN,services.bingapis.com
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
+DOMAIN-SUFFIX,api.microsoftapp.net
+DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+DOMAIN-SUFFIX,edgeservices.bing.com
+
+# Anthropic / Claude
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+
+# AI API & Model Providers (OpenRouter / Groq / Agnes AI)
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-KEYWORD,openrouter
+DOMAIN-KEYWORD,groq
+DOMAIN-KEYWORD,agnes-ai
+
+# Shared Infrastructure / Supporting Services
+# ⚠️ 本节为宽泛规则，按原样保留，匹配范围可能超出 AI 服务：
+#   IP-ASN,14061      = DigitalOcean（全网段，非 AI 专属）
+#   stripe.com / sentry.io / segment.io / algolia.net / launchdarkly.com
+#                     = 多站共享的 SaaS，会把其他网站的这类流量一并引到本策略
+# 其中 5 条与 ChatGPT.list 重复；生效的是排在前面的规则集。
+
+DOMAIN,api.statsig.com
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,in.appcenter.ms
+DOMAIN,static.cloudflareinsights.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+IP-ASN,14061,no-resolve

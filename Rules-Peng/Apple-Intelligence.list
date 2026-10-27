@@ -1,0 +1,26 @@
+# NAME: Apple-Intelligence
+# AUTHOR: Peng (split out from AI.list)
+# UPDATED: 2026-10-27
+# DESCRIPTION: Apple Intelligence / Siri endpoints, plus iCloud Private Relay
+#              (mask*.icloud.com / apple-relay.*) endpoints carried over from AI.list.
+# FORMAT: Policy-less generic RULE-SET (compatible with Surge, Loon, Shadowrocket)
+
+# Apple Intelligence / Siri / Relay 建议走美国节点规则
+
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com

@@ -19,6 +19,23 @@ DOMAIN-SUFFIX,docs.remnote.com
 DOMAIN-SUFFIX,updates.remnote.com
 DOMAIN-SUFFIX,remnote.io
 
+# 🧠 Notion (moved from AI.list, 2026-10-27)
+# Notion Core
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notion.new
+
+# Notion Static / User Content
+DOMAIN-SUFFIX,notion-static.com
+DOMAIN-SUFFIX,notionusercontent.com
+
+# Notion legacy / company / deep links
+DOMAIN-SUFFIX,makenotion.com
+
+# Notion telemetry / diagnostics
+DOMAIN,http-inputs-notion.splunkcloud.com
+
 # 🌐 AV
 DOMAIN,missav.com
 DOMAIN-SUFFIX,missav.com

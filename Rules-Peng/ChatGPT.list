@@ -1,0 +1,154 @@
+# NAME: ChatGPT
+# AUTHOR: Peng (split out from AI.list)
+# UPDATED: 2026-10-27
+# DESCRIPTION: OpenAI / ChatGPT first-party domains plus the third-party services
+#              ChatGPT Web / App / Voice depend on (auth, payment, support, telemetry).
+# FORMAT: Policy-less generic RULE-SET (compatible with Surge, Loon, Shadowrocket)
+
+# =====================================================
+# OpenAI / ChatGPT
+# Optimized for ChatGPT Web
+# Updated: 2026-09
+# =====================================================
+
+
+# -----------------------------------------------------
+# 1. Core / First-party
+# -----------------------------------------------------
+
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,oaistatsig.com
+
+# Short ChatGPT entry point
+DOMAIN,chat.com
+
+# OpenAI CDN
+DOMAIN,cdn.openaimerge.com
+
+
+# -----------------------------------------------------
+# 2. Authentication / Login / Verification
+# -----------------------------------------------------
+
+DOMAIN,challenges.cloudflare.com
+
+DOMAIN,cdn.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,setup.workos.com
+DOMAIN,images.workoscdn.com
+DOMAIN,workos.imgix.net
+
+
+# -----------------------------------------------------
+# 3. Email / Account related
+# -----------------------------------------------------
+
+DOMAIN-SUFFIX,ct.sendgrid.net
+
+
+# -----------------------------------------------------
+# 4. Support / Intercom
+# -----------------------------------------------------
+
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+
+
+# -----------------------------------------------------
+# 5. Payment
+# -----------------------------------------------------
+
+DOMAIN,js.stripe.com
+
+
+# -----------------------------------------------------
+# 6. Telemetry / Error reporting
+# -----------------------------------------------------
+
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
+
+# Seen in actual ChatGPT traffic
+DOMAIN,o33249.ingest.us.sentry.io
+
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN,browser-intake-datadoghq.com
+
+
+# -----------------------------------------------------
+# 7. Legacy Statsig / Feature Flags
+# Keep for compatibility
+# -----------------------------------------------------
+
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+
+DOMAIN,featureassets.org
+DOMAIN,prodregistryv2.org
+
+
+# -----------------------------------------------------
+# 8. Arkose / Anti-abuse compatibility
+# -----------------------------------------------------
+
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+
+
+# -----------------------------------------------------
+# 9. Historical OpenAI CDN / Azure infrastructure
+# Low collateral risk, keep for compatibility
+# -----------------------------------------------------
+
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+
+
+# -----------------------------------------------------
+# 10. ChatGPT Voice / LiveKit compatibility
+# -----------------------------------------------------
+
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+
+# -----------------------------------------------------
+# 11. Additional OpenAI / ChatGPT Domains
+# -----------------------------------------------------
+
+DOMAIN,033249.ingest.sentry.io
+DOMAIN,s.gravatar.com
+DOMAIN,chatgpt-async-webps-prod-centralus-1.webpubsub.azure.com
+
+# -----------------------------------------------------
+# 12. Google 登录链
+# ChatGPT（及原先 Notion）通过 Google 账号登录时使用的登录链。
+# Surge：完全被 Google/ 规则集覆盖，且 Google/ 排在前面，先行命中，这里不会生效。
+# Loon / Shadowrocket：两端未引用 Google/，这里仍然生效。
+# -----------------------------------------------------
+
+DOMAIN,accounts.google.com
+DOMAIN,myaccount.google.com
+DOMAIN,ogs.google.com
+DOMAIN,play.google.com
+DOMAIN,www.google.com
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,www.googleapis.com
+DOMAIN,play.googleapis.com
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,www.gstatic.com
+DOMAIN,storage.googleapis.com
