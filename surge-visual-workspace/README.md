@@ -2,6 +2,8 @@
 
 > 为非编程用户打造的 **Surge 可视化配置工作台**。采用 **Notion Database 风格的左右对比双表（Resizable Stack View）**，让复杂的策略组与分流规则一目了然，支持零风险虚拟编辑、实时红绿 Diff 对比与 AI Agent（`surge-operator-peng`）自动化变更导出。
 
+🚀 **线上直达链接 (Cloudflare Pages)**: [https://surge-visual-workspace.pages.dev/](https://surge-visual-workspace.pages.dev/)
+
 ---
 
 ## ✨ 核心特性
