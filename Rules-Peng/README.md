@@ -25,9 +25,9 @@ Rules-Peng/
 
 | 文件 | 有效规则 | 职责边界 |
 |---|---:|---|
-| `ChatGPT.list` | 55 | OpenAI 一方域名、登录/支付/客服/遥测依赖、LiveKit 语音、Google 登录链（§12） |
+| `ChatGPT.list` | 60 | OpenAI 一方域名、登录/支付/客服/遥测依赖、LiveKit 语音、Google 登录链（§12）及精准补漏域名 |
 | `Apple-Intelligence.list` | 17 | Siri / Apple Intelligence 端点，以及 Private Relay（`mask*.icloud.com`、`apple-relay.*`） |
-| `Other-AI.list` | 42 | Microsoft Copilot / Bing AI、Claude、OpenRouter / Groq / Agnes、Shared AI Infrastructure |
+| `Other-AI.list` | 43 | Microsoft Copilot / Bing AI、Claude、OpenRouter / Groq / Agnes、Shared AI Infrastructure |
 | `Clubhouse.list` | 7 | Clubhouse 控制面与静态资源；RTC 音视频已迁至 Direct-Peng |
 | `Proxy-Peng.list` | 54 | 不需要专属节点的普通代理服务 |
 | `Direct-Peng.list` | 30 | 需要绕过代理的服务 |
