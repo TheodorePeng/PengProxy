@@ -1,11 +1,9 @@
-[Rule]
-
 #Eudic
 # 欧路 / 法语助手 / 每日英语听力核心服务
 
-DOMAIN-SUFFIX,eudic.net,DIRECT
-DOMAIN-SUFFIX,frdic.com,DIRECT
-DOMAIN-SUFFIX,esdict.cn,DIRECT
+DOMAIN-SUFFIX,eudic.net
+DOMAIN-SUFFIX,frdic.com
+DOMAIN-SUFFIX,esdict.cn
 
 
 # Clubhouse RTC/audio direct rules
