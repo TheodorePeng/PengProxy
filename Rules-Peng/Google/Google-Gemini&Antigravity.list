@@ -1,0 +1,128 @@
+# NAME: Google-Gemini&Antigravity
+# AUTHOR: Peng
+# UPDATED: 2026-10-27
+# SOURCES: Local Mac Antigravity Binary Audit (App / IDE / CLI agy / Tools)
+#          + Surge Live Traffic Audit + v2fly/domain-list-community (google-deepmind)
+#          + blackmatrix7 (Gemini.list)
+# DESCRIPTION: Google Gemini / AI Studio / NotebookLM / DeepMind / Vertex AI / Jules /
+#              AI Labs / Flow / Stitch / Project IDX & Antigravity rules.
+#              Includes Google Account OAuth login chain to prevent region-lock mismatch.
+#              Strictly excludes general Google Search / Drive / YouTube domains.
+# FORMAT: Policy-less generic RULE-SET (compatible with Surge, Loon, Shadowrocket)
+
+# =====================================================
+# 1. Google 账号登录与 OAuth / STS 鉴权链（防锁区保持出口一致）
+# =====================================================
+DOMAIN,accounts.google.com
+DOMAIN,myaccount.google.com
+DOMAIN,ogs.google.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,oauth2.mtls.googleapis.com
+DOMAIN,sts.googleapis.com
+DOMAIN,iamcredentials.googleapis.com
+DOMAIN,securetoken.googleapis.com
+DOMAIN,identitytoolkit.googleapis.com
+DOMAIN,accountcapabilities-pa.googleapis.com
+DOMAIN-SUFFIX,auth.cloud.goog
+DOMAIN-SUFFIX,auth.cloud.google
+
+# =====================================================
+# 2. Antigravity 全家桶专属端点（App / IDE / Hub / CLI agy / Tools）
+# =====================================================
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity.goog
+DOMAIN-SUFFIX,antigravity.com
+DOMAIN,antigravity.google.com
+DOMAIN,antigravity-unleash.goog
+DOMAIN,antigravity-pa.googleapis.com
+DOMAIN,antigravity.googleapis.com
+DOMAIN,cloudcode-pa.googleapis.com
+DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
+DOMAIN,preprod-daily-cloudcode-pa.sandbox.googleapis.com
+DOMAIN,autopush-cloudcode-pa.sandbox.googleapis.com
+DOMAIN,aicode.googleapis.com
+DOMAIN,aida.googleapis.com
+DOMAIN,businessaicode.googleapis.com
+DOMAIN,autopush-aicode.sandbox.googleapis.com
+DOMAIN,cloudaicompanion.googleapis.com
+DOMAIN,aiplatform.googleapis.com
+DOMAIN,antigravity-auto-updater-974169037036.us-central1.run.app
+DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app
+DOMAIN,antigravity-ide-auto-updater-974169037036.us-central1.run.app
+DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app
+DOMAIN-SUFFIX,us-central1.run.app
+DOMAIN-SUFFIX,open-vsx.org
+DOMAIN,cdn.playwright.dev
+DOMAIN,playwright.azureedge.net
+DOMAIN,playwright-akamai.azureedge.net
+DOMAIN,playwright-verizon.azureedge.net
+DOMAIN-KEYWORD,antigravity
+
+# =====================================================
+# 3. Gemini / AI Studio / Workspace AI 侧边栏 / DeepMind / Colab
+# =====================================================
+DOMAIN,gemini.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN,gemini.gstatic.com
+DOMAIN,geminiweb-pa.clients.google.com
+DOMAIN,geminiweb-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.clients.google.com
+DOMAIN,appsgenaiserver-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.googleapis.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN,aistudio.google.com
+DOMAIN-SUFFIX,ai.studio
+DOMAIN,makersuite.google.com
+DOMAIN,ai.google.dev
+DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,ai.goog
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN,alkalimakersuiteapplets.pa.googleapis.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,geller-pa.googleapis.com
+DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN,robinfrontend-pa.googleapis.com
+DOMAIN,developerprofiles-pa.googleapis.com
+DOMAIN,chromemodelexecution-pa.googleapis.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN,colab.research.google.com
+DOMAIN-SUFFIX,colab.google
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,colab
+
+# =====================================================
+# 4. NotebookLM / Jules / Google AI Labs / Flow / Opal / Stitch / IDX
+# =====================================================
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN,notebooklm-pa.googleapis.com
+DOMAIN,notebooklm.googleapis.com
+DOMAIN,labstailwind.pa.googleapis.com
+DOMAIN-SUFFIX,notebook.google
+DOMAIN-SUFFIX,notebook.google.com
+DOMAIN-KEYWORD,notebooklm
+DOMAIN-SUFFIX,jules.google
+DOMAIN-SUFFIX,jules.google.com
+DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,labs.google.com
+DOMAIN-SUFFIX,flow.google
+DOMAIN-SUFFIX,flow.google.com
+DOMAIN,aisandbox-pa.googleapis.com
+DOMAIN-SUFFIX,opal.google
+DOMAIN-SUFFIX,opal.google.com
+DOMAIN-SUFFIX,stitch.withgoogle.com
+DOMAIN-SUFFIX,idx.dev
+DOMAIN,idx.google.com
+DOMAIN,monospace.pa.googleapis.com
+
+# =====================================================
+# 5. Antigravity Unleash / 专属网关 IP
+# =====================================================
+IP-CIDR,34.54.84.110/32,no-resolve
