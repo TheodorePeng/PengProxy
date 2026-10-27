@@ -67,6 +67,8 @@ export const SortableRuleRow: React.FC<SortableRuleRowProps> = ({
   return (
     <tr
       id={`rule-row-${rule.id}`}
+      data-agent-rule={rule.id}
+      data-agent-pattern={rule.pattern}
       ref={setNodeRef}
       style={style}
       className={`group transition-all duration-300 border-b border-[#f0f0ee] ${

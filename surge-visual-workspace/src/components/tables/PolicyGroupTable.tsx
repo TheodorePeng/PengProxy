@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { PolicyGroup, RoutingRule } from '@/types/surge';
 import { MemberMultiSelectPopover } from './MemberMultiSelectPopover';
 import { RelationMultiSelectPopover } from './RelationMultiSelectPopover';
@@ -25,6 +25,7 @@ interface PolicyGroupTableProps {
   rules: RoutingRule[];
   originalRules: RoutingRule[];
   activeRuleFilterGroup: string | null;
+  agentHighlightedGroupName?: string | null;
   onFilterRulesByGroup: (groupName: string | null) => void;
   onUpdateGroup: (updatedGroup: PolicyGroup, oldName?: string) => void;
   onAddGroup: (newGroup: PolicyGroup) => void;
@@ -72,6 +73,7 @@ export const PolicyGroupTable: React.FC<PolicyGroupTableProps> = ({
   rules,
   originalRules,
   activeRuleFilterGroup,
+  agentHighlightedGroupName = null,
   onFilterRulesByGroup,
   onUpdateGroup,
   onAddGroup,
@@ -84,6 +86,16 @@ export const PolicyGroupTable: React.FC<PolicyGroupTableProps> = ({
 }) => {
   const [search, setSearch] = useState('');
   const [typeFilter, setTypeFilter] = useState('ALL');
+
+  // Auto-scroll to highlighted group when agent focuses it
+  useEffect(() => {
+    if (agentHighlightedGroupName) {
+      const el = document.getElementById(`group-row-${agentHighlightedGroupName}`);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+  }, [agentHighlightedGroupName]);
 
   // Inline rename
   const [editingNameId, setEditingNameId] = useState<string | null>(null);
@@ -459,11 +471,19 @@ export const PolicyGroupTable: React.FC<PolicyGroupTableProps> = ({
                 const isRegexModified = isGroupRegexModified(g);
                 const isSpeedModified = isGroupSpeedTestModified(g);
 
+                const isAgentHighlighted = agentHighlightedGroupName === g.name;
+
                 return (
                   <tr
                     key={g.id}
-                    className={`group transition-colors ${
-                      isFilterActive ? 'bg-indigo-50/70' : 'hover:bg-[#f9f9f8]'
+                    id={`group-row-${g.name}`}
+                    data-agent-group={g.name}
+                    className={`group transition-all duration-300 ${
+                      isAgentHighlighted
+                        ? 'bg-purple-100/90 ring-2 ring-purple-500 ring-inset shadow-md font-medium'
+                        : isFilterActive
+                        ? 'bg-indigo-50/70'
+                        : 'hover:bg-[#f9f9f8]'
                     }`}
                   >
                     {columnOrder.map((colKey) => {
